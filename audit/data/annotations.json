@@ -1,0 +1,500 @@
+{
+  "_meta": {
+    "authored": "2026-05-27",
+    "by": "static-analysis audit + general accelerator-physics knowledge",
+    "note": "Hand-authored content holds ONLY two tiers: 'context' (general domain knowledge — describes the class of thing, NOT ALS-specific configuration) and 'unknowns' (open questions that require an ALS operator/physicist to answer; not derivable from source). The 'verified' tier shown in the browser is rendered live from the extraction artifacts, never stored here, so it can never drift from the code.",
+    "tiers": {
+      "verified": "Extracted directly from MML source. Reliable. Rendered live in the browser from JSON artifacts.",
+      "context": "General accelerator-physics / MML-pattern knowledge. Reliable but generic — explains what the category of thing is, not how ALS specifically tuned or operates it.",
+      "unknowns": "Requires operator/physicist input or a live MATLAB session. NOT inferable from the static checkout. These are the interview agenda, not gaps in the writeup."
+    }
+  },
+  "families": {
+    "BPM": {
+      "title": "Beam Position Monitor",
+      "context": "A BPM measures the transverse position (horizontal X and vertical Y) of the electron-beam centroid at one point around the ring. Each physical monitor reads the induced charge on four button/stripline pickup electrodes; the asymmetry between opposing buttons gives X and Y. The storage ring carries a BPM near most quadrupoles, so the family's DeviceList enumerates the monitors distributed around the lattice. Crucially, BPM is a *diagnostic, read-only* family: it has Monitor channels (X, Y, sometimes a sum/intensity signal) but no Setpoint — you cannot 'set' a beam position, only measure it and then act through the corrector families (HCM/VCM). Its readings are the input to orbit display, closed-orbit correction, slow-orbit feedback, LOCO (lattice calibration), and beam-based alignment. ChannelNames map each device to its EPICS monitor PVs.",
+      "unknowns": [
+        "Which BPMs are in the reference ('golden') orbit and which are masked out as known-bad? A status/golden mask may be statically visible, but the *operational reason* each is excluded is tribal knowledge.",
+        "Are any BPMs physically installed but disabled in software, and why?",
+        "Which acquisition path does this family's config select — slow-orbit (SA), fast-acquisition (FA), or turn-by-turn (TbT)? And at what rate?",
+        "Are X/Y already rotated/calibrated into machine coordinates, or raw electrode geometry? What calibration constants apply?",
+        "Which BPM signals feed the LFB/TFB/FAD feedback subsystems vs. only the orbit display?"
+      ]
+    },
+    "BPMx": {
+      "title": "BPM — Horizontal-plane subset",
+      "context": "A BPM-derived family that appears to isolate the horizontal-plane reading (or a horizontal-specific subset of monitors). MML sometimes splits a single physical diagnostic into plane- or purpose-specific families so that orbit tools can iterate just the channels they need. Same read-only diagnostic nature as BPM.",
+      "unknowns": [
+        "What exactly distinguishes BPMx from the X channel of the main BPM family — is it a different device subset, a different acquisition mode, or just a convenience view?",
+        "Do orbit-correction tools consume BPMx/BPMy or the unified BPM family? Knowing which is authoritative matters for a port."
+      ]
+    },
+    "BPMy": {
+      "title": "BPM — Vertical-plane subset",
+      "context": "The vertical-plane counterpart to BPMx — a BPM-derived family isolating the vertical reading or a vertical-specific monitor subset. Read-only diagnostic, same underlying hardware as the BPM family.",
+      "unknowns": [
+        "Same as BPMx: what distinguishes this from the Y channel of the unified BPM family, and which one the orbit tools actually use?"
+      ]
+    },
+    "BPMTest": {
+      "title": "BPM — Test / commissioning subset",
+      "context": "A BPM-derived family that, by name, holds test, spare, or commissioning monitors kept separate from the production BPM set so they don't perturb orbit tools. Read-only diagnostic.",
+      "unknowns": [
+        "Which physical monitors are in BPMTest and why are they segregated — new electronics under evaluation, known-bad units, or bench/spare channels?",
+        "Is this family live in production modes or only used during commissioning/studies?"
+      ]
+    },
+    "HCM": {
+      "title": "Horizontal Corrector Magnet",
+      "context": "HCM is the family of horizontal steering (corrector) magnets — small dipole correctors that deflect the beam in the horizontal plane to correct the closed orbit. It is the primary *actuator* paired with the BPM diagnostic: orbit-correction algorithms read BPM positions, invert the orbit response matrix, and write new HCM setpoints. Unlike BPM, HCM has a Setpoint (the commanded kick/current) and a Monitor (the readback), plus current limits. The DeviceList enumerates the correctors around the ring.",
+      "unknowns": [
+        "Setpoint units — amperes, milliradians of kick, or engineering units? And where is the calibration (current↔angle) applied?",
+        "What are the authoritative current/rate limits, and are they enforced in MML, in the power-supply controller, or both?",
+        "Which HCMs (if any) are shared with or excluded from the fast-orbit-feedback (HCMFOFB) circuit?",
+        "Hysteresis handling — does setting HCM require a standardization/degauss cycle, and is that automated?"
+      ]
+    },
+    "VCM": {
+      "title": "Vertical Corrector Magnet",
+      "context": "VCM is the vertical-plane counterpart to HCM — corrector magnets that steer the beam vertically to flatten the vertical closed orbit. Same actuator role: orbit correction reads BPM Y positions and writes VCM setpoints via the vertical orbit response matrix. Has Setpoint, Monitor, and current limits; DeviceList enumerates the vertical correctors.",
+      "unknowns": [
+        "Same unit/calibration question as HCM (amps vs. mrad, where calibration lives).",
+        "Authoritative current/rate limits and where they are enforced.",
+        "Overlap with the vertical fast-orbit-feedback circuit (VCMFOFB).",
+        "Whether any VCMs double as skew-correction or are dedicated steering only."
+      ]
+    },
+    "HCMFOFB": {
+      "title": "Horizontal Fast Orbit Feedback Correctors",
+      "context": "The subset (or parallel circuit) of horizontal correctors driven by the Fast Orbit Feedback (FOFB) system. FOFB runs a high-rate (typically hundreds of Hz to kHz) digital loop that reads fast-acquisition BPM data and continuously drives these correctors to suppress orbit motion from ground vibration, magnet jitter, and insertion-device gap changes. These correctors usually need fast power supplies and a feedback-specific control path distinct from the slow HCM setpoint path.",
+      "unknowns": [
+        "Are HCMFOFB physically separate magnets, or fast windings/channels on the same HCM magnets driven by a different supply?",
+        "What is the loop rate, and how does the FOFB control path relate to the MML setpoint path — can an operator setpv these directly, or are they owned by the feedback processor?",
+        "How are slow (HCM) and fast (HCMFOFB) corrections arbitrated so they don't fight?"
+      ]
+    },
+    "VCMFOFB": {
+      "title": "Vertical Fast Orbit Feedback Correctors",
+      "context": "The vertical counterpart to HCMFOFB — vertical correctors driven by the Fast Orbit Feedback system to stabilize vertical orbit motion at high rate. Vertical orbit stability is especially important for photon-beam pointing at the insertion-device source points.",
+      "unknowns": [
+        "Same as HCMFOFB: separate magnets vs. fast windings, loop rate, ownership (feedback processor vs. operator setpv), and slow/fast arbitration.",
+        "Whether vertical FOFB is the dominant stabilization for ID-source-point stability."
+      ]
+    },
+    "HCMCHICANE": {
+      "title": "Horizontal Correctors — Chicane region",
+      "context": "Horizontal correctors associated with a chicane — a local, closed set of dipole bends that displaces the beam sideways through a straight section and back, without affecting the orbit elsewhere. Chicanes are used to create a controlled local bump (historically at ALS for femtosecond-slicing/beam-manipulation experiments and for accommodating specific insertion hardware). This family lets MML command the horizontal correctors that form or trim that local bump.",
+      "unknowns": [
+        "Which chicane is this and what is its current purpose (slicing, a specific beamline, injection, scraping)?",
+        "Is the chicane normally energized in production modes, or only for studies?",
+        "How does HCMCHICANE differ from HCMCHICANEM (see that family) — a second set, a 'minus' polarity group, or a different chicane?"
+      ]
+    },
+    "HCMCHICANEM": {
+      "title": "Horizontal Correctors — Chicane region (second/variant set)",
+      "context": "A second horizontal-corrector chicane family, distinguished from HCMCHICANE by the trailing 'M'. The 'M' likely denotes a second magnet set, a paired/mirror group, or a different polarity/position within the chicane bump. Same local-orbit-bump actuator role as HCMCHICANE.",
+      "unknowns": [
+        "What does the 'M' suffix actually mean — mirror, minus, a second magnet, or a model/measured variant?",
+        "Operational relationship to HCMCHICANE: are they always driven together as a matched bump?"
+      ]
+    },
+    "VCMCHICANE": {
+      "title": "Vertical Correctors — Chicane region",
+      "context": "Vertical correctors in or near a chicane region, used to trim the vertical orbit through the local bump created by the chicane. Vertical trims are typically needed to keep the bump from introducing vertical orbit/coupling errors.",
+      "unknowns": [
+        "Which chicane, and is vertical trim routinely needed when the chicane is active?",
+        "Same energized-in-production question as the horizontal chicane families."
+      ]
+    },
+    "QF": {
+      "title": "Focusing Quadrupole",
+      "context": "QF is a family of focusing quadrupole magnets. Quadrupoles provide the linear focusing that confines the beam transversely; a 'focusing' quad focuses horizontally while defocusing vertically (the alternating-gradient principle). Quadrupole strengths set the betatron tunes, beta functions, and dispersion — i.e. the linear optics of the lattice. As an actuator family QF has Setpoint (current → integrated gradient), Monitor, and limits. In a periodic lattice many QF magnets are typically powered in series as a single circuit or a few circuits.",
+      "unknowns": [
+        "Circuit topology — how many independent QF power supplies vs. magnets in series? This determines how many true knobs exist.",
+        "Setpoint units and the current→K1 (focusing strength) calibration, including energy scaling.",
+        "Hysteresis/standardization procedure before trusting a quad setpoint.",
+        "How QF relates to the AT/Tracy model (AD.ATModel) — which model elements map to this family."
+      ]
+    },
+    "QD": {
+      "title": "Defocusing Quadrupole",
+      "context": "QD is the defocusing-quadrupole family — quadrupoles that focus vertically and defocus horizontally, the complement to QF in the alternating-gradient lattice. Together QF/QD (and the QFA/QDA arc variants) set the machine tunes and beta functions. Actuator family with Setpoint, Monitor, and limits.",
+      "unknowns": [
+        "Same as QF: circuit topology (independent supplies vs. series), unit/calibration, hysteresis, model mapping.",
+        "Which quad families are the operator's primary tune knobs vs. fixed lattice quads."
+      ]
+    },
+    "QFA": {
+      "title": "Focusing Quadrupole — Arc / variant family",
+      "context": "A second focusing-quadrupole family, the 'A' typically denoting a distinct family of focusing quads — often the arc quadrupoles in a specific cell type, or a separately-powered circuit, distinct from the main QF circuit. ALS uses a triple-bend-achromat lattice with multiple quadrupole families per cell; QFA is one of them. Actuator family with the same setpoint/monitor/limit structure as QF.",
+      "unknowns": [
+        "What precisely distinguishes QFA from QF at ALS — arc vs. straight, a different cell position, or just a separate circuit?",
+        "Is QFA an independent tune/optics knob or slaved to QF?"
+      ]
+    },
+    "QDA": {
+      "title": "Defocusing Quadrupole — Arc / variant family",
+      "context": "The defocusing counterpart to QFA — a second defocusing-quadrupole family/circuit distinct from the main QD. Part of the multi-family quadrupole complement of the ALS triple-bend-achromat cells. Standard quad actuator structure.",
+      "unknowns": [
+        "Same as QFA: what distinguishes QDA from QD, and whether it is an independent optics knob."
+      ]
+    },
+    "SF": {
+      "title": "Focusing Sextupole",
+      "context": "SF is a family of focusing sextupole magnets. Sextupoles correct chromaticity — the tune's dependence on particle energy — which is naturally negative due to the quadrupoles and must be corrected to positive values for beam stability and to suppress head-tail instabilities. 'Focusing' sextupoles are placed where the horizontal beta/dispersion product favors horizontal chromaticity correction. Sextupoles also strongly shape the nonlinear dynamics and dynamic aperture. Actuator family with Setpoint (current → sextupole strength), Monitor, limits.",
+      "unknowns": [
+        "Circuit topology and the current→sextupole-strength calibration.",
+        "Are SF setpoints driven primarily for chromaticity, or also as harmonic/nonlinear-dynamics knobs (see SHF/SHD)?",
+        "Whether skew-quad windings (SQSF) share these magnets."
+      ]
+    },
+    "SD": {
+      "title": "Defocusing Sextupole",
+      "context": "SD is the defocusing-sextupole family, the complement to SF for chromaticity correction in the vertical plane (placed where the vertical beta/dispersion product dominates). Together SF/SD set the horizontal and vertical chromaticities. Same actuator structure as SF; may also host skew-quad windings (SQSD).",
+      "unknowns": [
+        "Same as SF: circuit topology, calibration, chromaticity vs. nonlinear-dynamics role.",
+        "Whether SD magnets carry the SQSD skew-quad auxiliary windings."
+      ]
+    },
+    "SHF": {
+      "title": "Harmonic Sextupole (focusing-type)",
+      "context": "SHF appears to be a 'harmonic' sextupole family — sextupoles (or sextupole circuits) used not for chromaticity but to control higher-order nonlinear optics: amplitude-dependent tune shift, resonance driving terms, and dynamic-aperture optimization. Storage rings often separate chromatic sextupoles (SF/SD) from harmonic sextupoles so the two roles can be tuned independently. Actuator family with the standard setpoint/monitor/limit structure.",
+      "unknowns": [
+        "Confirm SHF is harmonic (nonlinear-dynamics) rather than another chromatic circuit — and exactly what 'H' denotes here.",
+        "Which resonances or dynamic-aperture goals these were tuned for, and whether operators ever change them.",
+        "Relationship to the chromatic SF/SD families (shared magnets or separate)."
+      ]
+    },
+    "SHD": {
+      "title": "Harmonic Sextupole (defocusing-type)",
+      "context": "The defocusing-type counterpart to SHF — a second harmonic-sextupole family for nonlinear-optics/dynamic-aperture control, complementing SHF. Standard sextupole actuator structure.",
+      "unknowns": [
+        "Same as SHF: confirm harmonic vs. chromatic role, the meaning of the suffix, and the tuning intent.",
+        "Whether SHD ever changes operationally or is a fixed lattice setting."
+      ]
+    },
+    "SQSF": {
+      "title": "Skew Quadrupole (on SF sextupoles)",
+      "context": "SQSF is a skew-quadrupole family. Skew quadrupoles are rotated 45° relative to normal quads and correct betatron coupling (the unwanted mixing of horizontal and vertical motion) and vertical dispersion — both critical for achieving small vertical emittance. The 'SQSF' name strongly suggests these are auxiliary skew-quad windings implemented on the SF focusing-sextupole magnets (a common, cost-saving way to add skew correctors without dedicated magnets). Actuator family with setpoint/monitor/limits.",
+      "unknowns": [
+        "Confirm these are auxiliary windings on the SF sextupoles vs. standalone skew quads.",
+        "Are they driven by coupling-correction/emittance-tuning algorithms, and how often?",
+        "Calibration: setpoint → skew gradient, and any cross-talk with the host sextupole's main field."
+      ]
+    },
+    "SQSD": {
+      "title": "Skew Quadrupole (on SD sextupoles)",
+      "context": "The skew-quadrupole family associated with the SD defocusing sextupoles — again, most likely auxiliary skew windings on those magnets. Used together with SQSF (and the other skew families) for global coupling and vertical-dispersion correction to minimize vertical emittance.",
+      "unknowns": [
+        "Same as SQSF: windings-vs-standalone, driving algorithm/cadence, calibration and host-magnet cross-talk."
+      ]
+    },
+    "SQSHF": {
+      "title": "Skew Quadrupole (on harmonic sextupoles)",
+      "context": "A skew-quadrupole family associated with the harmonic-sextupole (SHF) magnets — additional skew correctors giving the coupling-correction system more independent knobs distributed differently around the ring. Same skew-correction purpose: coupling and vertical-dispersion control for low vertical emittance.",
+      "unknowns": [
+        "Confirm host magnets (SHF) and winding-vs-standalone.",
+        "Why a third distributed skew family is needed — extra correction authority, specific phase coverage, or historical addition."
+      ]
+    },
+    "SQEPU": {
+      "title": "Skew Quadrupole — EPU compensation",
+      "context": "A skew-quadrupole family associated with an EPU (Elliptically Polarizing Undulator). EPUs, especially in certain polarization/phase settings, introduce skew-quadrupole-like focusing errors and linear coupling that vary with the device's gap and phase. SQEPU is the dedicated skew corrector(s) used to compensate that ID-induced coupling locally, often via a feed-forward table keyed to the EPU's gap/phase.",
+      "unknowns": [
+        "Which EPU(s) does this compensate, and is the correction feed-forward (table-driven by gap/phase) or feedback?",
+        "Where does the compensation table live, and how was it measured/maintained?",
+        "Does it interact with the global coupling correction (SQSF/SQSD/SQSHF)?"
+      ]
+    },
+    "BEND": {
+      "title": "Dipole Bending Magnet",
+      "context": "BEND is the family of main dipole (bending) magnets that bend the beam around the closed ring and define its nominal energy/geometry. In most storage rings the main dipoles are powered as a single series circuit, so this family often represents one dominant knob whose current sets (with energy) the bend field. Dipole field is tightly coupled to the beam energy reference. Actuator family with Setpoint, Monitor, limits — though operationally the main bend is rarely changed except during energy ramps or dedicated studies.",
+      "unknowns": [
+        "Is the main bend a single series circuit at ALS, or are there independently-powered dipoles?",
+        "Relationship between BEND setpoint and the AD.Energy reference — which is master?",
+        "How is the bend involved (if at all) in routine operation vs. only energy changes?"
+      ]
+    },
+    "RF": {
+      "title": "Radio-Frequency Accelerating Cavity",
+      "context": "RF is the family for the main radio-frequency accelerating system (the ALS storage-ring RF is ~500 MHz). The RF cavity replenishes the energy each electron loses to synchrotron radiation per turn, and its voltage/frequency define the RF bucket — setting the synchronous phase, bunch length, energy acceptance (Touschek lifetime), and the synchrotron tune. The RF frequency also provides a fine handle on the mean radial orbit/energy via the momentum-compaction relationship. Family typically exposes cavity voltage, frequency, and phase setpoints plus many monitor/interlock channels.",
+      "unknowns": [
+        "Single cavity vs. multiple, and which parameters (voltage, frequency, phase) MML exposes as setpoints vs. read-only.",
+        "How RF frequency changes are coordinated with orbit/energy (the RF-frequency↔orbit knob).",
+        "Interlock and conditioning behavior — what MML can and cannot command on the RF.",
+        "Relationship to the third-harmonic cavity (THC) for bunch lengthening."
+      ]
+    },
+    "THC": {
+      "title": "Third-Harmonic Cavity (Landau / bunch-lengthening)",
+      "context": "THC most likely denotes the third-harmonic cavity system — a higher-harmonic RF cavity (3× the main RF frequency) used to lengthen the bunch. Bunch lengthening reduces the charge density, which suppresses Touschek scattering (improving beam lifetime) and raises instability thresholds via Landau damping. Such cavities are often passive (beam-driven, tuned by adjusting cavity detuning) rather than actively powered. The family would expose tuning/temperature/voltage and monitor channels.",
+      "unknowns": [
+        "Confirm THC is the third-harmonic cavity (vs. some other 'THC' meaning) and whether it is passive or active.",
+        "What does MML actually command — cavity tuning/temperature setpoints, or only monitors?",
+        "How it is used across operational modes (e.g. engaged in production top-off, parked otherwise)."
+      ]
+    },
+    "DCCT": {
+      "title": "DC Current Transformer (stored-beam current)",
+      "context": "DCCT is the DC Current Transformer — the instrument that measures the total stored beam current (in mA), non-destructively, by sensing the beam's magnetic field. It is the canonical read-only diagnostic for 'how much beam is in the ring' and is central to top-off injection control (inject to maintain a target current), lifetime measurement (current decay rate), and many normalizations. Typically a single device with a current Monitor channel.",
+      "unknowns": [
+        "Is there one DCCT or redundant instruments, and which is authoritative for top-off?",
+        "What current setpoint/target drives top-off, and where is it stored — likely not in this family but in the top-off subsystem.",
+        "Calibration and noise/averaging behavior relevant to lifetime fitting."
+      ]
+    },
+    "TUNE": {
+      "title": "Betatron Tune",
+      "context": "TUNE is the diagnostic family for the betatron tunes — the number of transverse oscillations per revolution, with fractional parts Qx and Qy. Tunes are measured from the spectral peak of beam motion (e.g. excited by a pinger/shaker and observed on BPM/spectrum hardware) and are a primary indicator of machine optics health: they must be kept away from resonance lines for stability and lifetime. Read-mostly — the *measured* tune is a monitor; tunes are *changed* indirectly via the quadrupole families, not by writing TUNE.",
+      "unknowns": [
+        "What hardware/excitation provides the tune measurement (TFB/LFB spectrum, dedicated tune monitor, network analyzer)?",
+        "Is tune ever used in a feedback/quad-trim loop, or purely as a monitor?",
+        "Target tune working point per operational mode."
+      ]
+    },
+    "EPU": {
+      "title": "Elliptically Polarizing Undulator (insertion device)",
+      "context": "EPU is the family for one or more Elliptically Polarizing Undulators — insertion devices that generate intense, polarization-tunable synchrotron light for beamlines. An EPU controls light by moving magnet rows: the *gap* sets photon energy and the longitudinal *phase/shift* between rows sets the polarization (linear horizontal/vertical, circular, elliptical). From the storage-ring side, changing an EPU perturbs the electron optics (tune shift, coupling, orbit), so its motion is usually coordinated with feed-forward corrections. The family exposes gap/phase setpoints and many position/status monitors.",
+      "unknowns": [
+        "How many EPUs, on which beamlines, and which gap/phase parameters MML exposes as setpoints.",
+        "Feed-forward compensation — does MML drive corrector/skew/quad feed-forward when the EPU moves, and where are those tables?",
+        "Who owns EPU motion: the beamline, a coordinated control system, or MML directly?"
+      ]
+    },
+    "ID": {
+      "title": "Insertion Device (generic)",
+      "context": "ID is a generic insertion-device family — undulators/wigglers placed in straight sections to produce bright synchrotron radiation. The most common control knob is the magnetic *gap* (smaller gap → stronger field → lower photon energy / more flux). Like EPUs, ID gap changes perturb the electron beam (focusing errors, orbit, tune) and are normally accompanied by feed-forward compensation. This family likely aggregates the planar/wiggler IDs that aren't EPUs. Exposes gap setpoints and status/position monitors.",
+      "unknowns": [
+        "Which physical IDs are grouped here vs. broken out separately, and what each one is (undulator/wiggler/superbend)?",
+        "Same feed-forward question as EPU — what MML does when an ID gap moves.",
+        "Whether any IDs are operator-movable vs. beamline-owned."
+      ]
+    },
+    "IonGauge": {
+      "title": "Ion Gauge (vacuum pressure)",
+      "context": "IonGauge is the family of vacuum ion gauges — instruments that measure pressure in the storage-ring vacuum chamber by ionizing residual gas and measuring the resulting current. Read-only diagnostics distributed around the ring. Vacuum quality directly drives gas-scattering beam lifetime, so these readings are watched closely and correlate with lifetime and with conditioning after vents. The DeviceList enumerates gauge locations; channels report pressure.",
+      "unknowns": [
+        "Pressure units/representation and any log-scale handling in the readings.",
+        "Which gauges are interlock-relevant (can trip beam or close valves) vs. purely informational.",
+        "Typical operating pressures and how vacuum readings feed lifetime diagnostics."
+      ]
+    },
+    "IonPump": {
+      "title": "Ion Pump (vacuum pumping + pressure proxy)",
+      "context": "IonPump is the family of sputter-ion pumps — the workhorse vacuum pumps that maintain ultra-high vacuum in the ring by ionizing gas and burying ions in a getter material. Their measured pump current is also used as a distributed pressure proxy. MML may expose both monitors (current/pressure, status) and possibly on/off or voltage control. Like IonGauge, central to vacuum/lifetime monitoring.",
+      "unknowns": [
+        "Does MML command ion pumps (on/off, high-voltage) or only read them?",
+        "Pump-current → pressure conversion and which pumps are interlock-relevant.",
+        "Relationship to IonGauge readings for the authoritative pressure picture."
+      ]
+    },
+    "TOPSCRAPER": {
+      "title": "Top Scraper (vertical collimator)",
+      "context": "TOPSCRAPER is a movable scraper/collimator blade inserted from the top of the vacuum chamber to define the vertical aperture from above. Scrapers are used to intercept beam halo, localize losses to a controlled spot, perform aperture/lifetime studies, and protect sensitive components. Actuator family: a position setpoint (blade insertion) plus a position monitor and limits. Moving it deep into the beam will scrape stored current, so it is normally parked clear during production.",
+      "unknowns": [
+        "Position units/reference (mm from a datum vs. chamber-relative) and the safe/parked position.",
+        "Is it interlocked or rate-limited to prevent accidental beam dumps?",
+        "Operational use — routine halo scraping, only studies, or machine-protection collimation?"
+      ]
+    },
+    "BOTTOMSCRAPER": {
+      "title": "Bottom Scraper (vertical collimator)",
+      "context": "The bottom-inserted counterpart to TOPSCRAPER — a movable blade defining the vertical aperture from below. Together top and bottom scrapers can symmetrically or asymmetrically define the vertical acceptance for halo control, loss localization, and aperture/lifetime studies. Position-setpoint actuator with monitor and limits.",
+      "unknowns": [
+        "Same as TOPSCRAPER: units/reference, parked position, interlocking, operational role.",
+        "Whether top/bottom are moved as a coordinated symmetric pair."
+      ]
+    },
+    "INSIDESCRAPER": {
+      "title": "Inside Scraper (horizontal collimator)",
+      "context": "INSIDESCRAPER is a movable scraper inserted from the inboard (inside-of-the-ring) side to define the horizontal aperture. Horizontal scrapers help characterize horizontal acceptance, intercept off-energy/halo particles (the inside is where lower-energy particles tend to go due to dispersion), and localize losses. Position-setpoint actuator with monitor and limits.",
+      "unknowns": [
+        "Units/reference and parked position; relationship to dispersion (off-energy losses land here).",
+        "Is there an outside/horizontal counterpart, or only the inside blade?",
+        "Routine use vs. studies-only, and interlocking."
+      ]
+    }
+  },
+  "verbs": {
+    "setpv": {
+      "title": "Set Process Variable",
+      "signature_inferred": "setpv(Family, Field, Value [, DeviceList] [, WaitFlag])  — also overloaded as setpv(ChannelName, Value). Positional + variadic; verify exact arity against setpv.m / @AccObj/setpv.m.",
+      "context": "setpv is MML's core *write* primitive — the actuator counterpart to getpv. Given a family and field (e.g. 'HCM','Setpoint') plus an optional device list and a value, it resolves the target to one or more EPICS PVs through the AO and writes them via the active online backend (the setpvonline sibling of getpvonline — a path-order-selected plugin). Most higher-level write verbs (setsp, stepsp/steppv, setff) are conveniences layered on top of setpv. Because it writes to live hardware, setpv is the single most safety-relevant function for any agentic/automation interface: anything that wraps the MML for autonomous control passes through here, so range checking, ramp limits, mode gating, and audit logging all hinge on its behavior.",
+      "unknowns": [
+        "What range / ramp-rate / interlock checks does setpv enforce itself vs. delegate downstream? Which limit is authoritative — AO.*.Range, the hardware, or an EPICS-side interlock?",
+        "How does it decide live-hardware write vs. simulator/model write? (Presumably an AO.*.Mode or AD.* flag — confirm the exact gate.)",
+        "Is there a hardware-write audit trail or log? Essential to know before any agentic caller is allowed to invoke it.",
+        "Blocking semantics: does setpv return immediately after caput, or wait until the readback reaches the setpoint (and with what tolerance/timeout)?"
+      ]
+    },
+    "getpv": {
+      "title": "Get Process Variable",
+      "signature_inferred": "getpv(Family, Field [, DeviceList]) → values  — also getpv(ChannelName). Verify against getpv.m.",
+      "context": "getpv is MML's core *read* primitive and the counterpart to setpv. Given a family and field (e.g. 'BPM','Monitor') with an optional device list, it resolves the AO to the underlying EPICS PV(s) and reads them through the active online backend (getpvonline). Most higher-level read verbs (getam, getsp, getfamilydata, getgolden) ultimately route through getpv or its online layer. It returns the current value(s) shaped to the device list, and is the function any read-only monitoring or agentic-observability layer would build on.",
+      "unknowns": [
+        "Online vs. simulator read dispatch — same mode-gate question as setpv.",
+        "Caching/freshness: does getpv always do a live caget, or can it return a cached/last-known value?",
+        "Error/timeout behavior when a PV is disconnected — does it throw, warn, or return NaN?"
+      ]
+    },
+    "getsp": {
+      "title": "Get Setpoint",
+      "signature_inferred": "getsp(Family [, DeviceList]) → setpoints. Convenience wrapper; verify against getsp.m.",
+      "context": "getsp reads the *commanded* value (the Setpoint field) of an actuator family — i.e. what the magnet/device was told to be, as opposed to its measured readback. It is a thin convenience over getpv with Field fixed to 'Setpoint'. Comparing getsp (commanded) against getam (measured) is the standard way to check whether a device has reached its target.",
+      "unknowns": [
+        "For families with multiple setpoint-like fields, which one getsp returns by default.",
+        "Units returned (engineering/hardware/physics) and where conversion happens."
+      ]
+    },
+    "setsp": {
+      "title": "Set Setpoint",
+      "signature_inferred": "setsp(Family, Value [, DeviceList] [, WaitFlag]). Convenience over setpv; verify against setsp.m.",
+      "context": "setsp writes the Setpoint field of an actuator family — the everyday way operators and scripts command magnets/devices to new values. It is a convenience layer over setpv with Field fixed to 'Setpoint', and inherits setpv's safety/dispatch behavior. Higher-level operations (orbit correction, tune changes) ultimately call setsp/setpv on the relevant families.",
+      "unknowns": [
+        "Same safety questions as setpv (limits, ramp, wait-for-readback) since setsp delegates to it.",
+        "Whether setsp applies any family-specific defaults (e.g. automatic standardization for magnets with hysteresis)."
+      ]
+    },
+    "getam": {
+      "title": "Get Monitor (Actual Machine value)",
+      "signature_inferred": "getam(Family [, DeviceList]) → readbacks. Convenience over getpv; verify against getam.m.",
+      "context": "getam reads the *measured* readback (the Monitor field — 'AM' = the actual-machine value) of a family, as opposed to its commanded Setpoint. For a diagnostic like BPM, getam is the live measurement; for an actuator like HCM, getam is the achieved value vs. getsp's commanded value. Convenience over getpv with Field fixed to 'Monitor'.",
+      "unknowns": [
+        "For families with multiple monitor channels, which getam returns by default.",
+        "Averaging/sampling behavior — single shot or averaged readback."
+      ]
+    },
+    "getpvonline": {
+      "title": "Get PV (online backend primitive)",
+      "signature_inferred": "getpvonline(ChannelNames [, options]) → values. Backend-specific; verify against the active mml/online/<backend>/getpvonline.m.",
+      "context": "getpvonline is the low-level live-read primitive that actually talks to EPICS Channel Access (caget). It sits *below* getpv: getpv resolves family/field to channel names, then getpvonline fetches them. Critically this is a *plugin point* — mml/online/ contains ~14 implementations (labca, mca, ucode, simulated, etc.) and MATLAB path order selects which is active. Any Python port must reproduce this swappable-backend design.",
+      "unknowns": [
+        "Which backend implementation is active in production ALS today (path order decides it)?",
+        "Connection management — does it open/close channels per call or maintain a pool?",
+        "How the simulated backend differs in behavior from the live one (matters for testing a port)."
+      ]
+    },
+    "setpvonline": {
+      "title": "Set PV (online backend primitive)",
+      "signature_inferred": "setpvonline(ChannelNames, Values [, options]). Backend-specific; verify against the active mml/online/<backend>/setpvonline.m.",
+      "context": "setpvonline is the low-level live-write primitive — the caput counterpart to getpvonline. setpv resolves family/field to channel names, then setpvonline performs the actual hardware write through the active EPICS backend plugin. This is the true hardware boundary: every magnet move ultimately calls setpvonline. It is the most important function to wrap with guards (and to stub with a simulator) in any port or agentic layer.",
+      "unknowns": [
+        "Which backend is active in production, and whether it confirms the write (synchronous caput-callback) or fires and forgets.",
+        "Any backend-level rate limiting or interlock honoring vs. assuming callers already checked.",
+        "Behavior on partial failure when writing a vector of channels."
+      ]
+    },
+    "getfamilydata": {
+      "title": "Get Family Data (read an AO field)",
+      "signature_inferred": "getfamilydata(Family [, Field...] [, DeviceList]) → data. Verify against getfamilydata.m.",
+      "context": "getfamilydata is a general accessor that returns arbitrary fields from the AO struct for a family — not necessarily a live PV read, but the *configuration/metadata* stored in the AO (device lists, common names, status, units, golden values, etc.). It is the static-introspection workhorse: much of MML's higher logic uses it to discover what a family contains. Where getpv asks 'what is the live value', getfamilydata asks 'what does the AO say about this family'.",
+      "unknowns": [
+        "Exactly which calls read pure AO config vs. trigger a live fetch — the boundary matters for a port's data model.",
+        "Default behavior when a requested field doesn't exist for a family."
+      ]
+    },
+    "setfamilydata": {
+      "title": "Set Family Data (write an AO field)",
+      "signature_inferred": "setfamilydata(Value, Family, Field [, DeviceList]). Verify against setfamilydata.m.",
+      "context": "setfamilydata is the counterpart to getfamilydata — it writes values into the in-memory AO struct for a family/field. This mutates MML's configuration state in the MATLAB workspace (e.g. updating golden values, status flags, or cached data), NOT the live machine. Understanding it is key to seeing how the AO is built up and modified at runtime beyond the declarative alsinit assignments.",
+      "unknowns": [
+        "Does it ever persist changes (to disk/config) or only mutate the in-memory AO for the session?",
+        "Which subsystems legitimately call this at runtime vs. it being mainly an init-time helper.",
+        "Interaction with save/restore (machineconfig) — are setfamilydata changes captured?"
+      ]
+    },
+    "family2channel": {
+      "title": "Family → EPICS Channel name",
+      "signature_inferred": "family2channel(Family [, Field] [, DeviceList]) → channel name(s). Verify against family2channel.m.",
+      "context": "family2channel is a name-resolution helper that maps a family/field/device specification to the underlying EPICS channel (PV) name(s) by looking up the AO's ChannelNames. It is the glue between MML's family-oriented API and the flat EPICS namespace — every get/set ultimately needs this resolution. For a port, this function defines the family→PV mapping contract.",
+      "unknowns": [
+        "How it handles families with multiple fields each having their own channel set.",
+        "Whether the char-matrix padding ('_'-padded equal-width PV names) is stripped here or downstream."
+      ]
+    },
+    "family2dev": {
+      "title": "Family → Device list / element index",
+      "signature_inferred": "family2dev(Family [, DeviceList]) → [sector device] rows or indices. Verify against family2dev.m.",
+      "context": "family2dev resolves a family (and optional partial device specification) to its canonical DeviceList — the [sector, element] index rows that identify each physical device in the family. It is the indexing counterpart to family2channel: where family2channel gives 'what PV', family2dev gives 'which devices and in what order'. Orbit/optics code relies on consistent device ordering, which this enforces.",
+      "unknowns": [
+        "The exact meaning/convention of the two columns (sector vs. element-within-sector) at ALS.",
+        "How it handles a requested device that isn't in the family's DeviceList."
+      ]
+    },
+    "getgolden": {
+      "title": "Get Golden (reference) values",
+      "signature_inferred": "getgolden(Family [, DeviceList]) → golden values. Verify against getgolden.m.",
+      "context": "getgolden returns the 'golden' reference values for a family — the saved nominal/target setpoints or orbit that represent the desired machine state. For BPM it's the golden orbit (the target the orbit-correction drives toward); for magnet families it's the reference setpoints. Golden values are central to save/restore and to feedback set-points. Reads the AO's Golden field.",
+      "unknowns": [
+        "How and when golden values are updated/blessed (who decides the current golden orbit?).",
+        "Where golden values are persisted between sessions, and per operational mode.",
+        "Relationship between golden orbit and the BPM offsets/beam-based-alignment references."
+      ]
+    },
+    "steppv": {
+      "title": "Step PV (relative change)",
+      "signature_inferred": "steppv(Family, Field, Delta [, DeviceList]). Verify against steppv.m.",
+      "context": "steppv applies a *relative* change to a PV — it reads the current value, adds the delta, and writes the sum via setpv. It is the building block for incremental knobs, scans, and 'nudge' operations (e.g. step a corrector by a small amount and observe the response). Inherits setpv's hardware-write safety behavior.",
+      "unknowns": [
+        "Does it read the setpoint or the readback as the base for the increment (these differ for un-converged devices)?",
+        "Same limit/ramp safety questions as setpv, plus whether it clamps at limits or errors."
+      ]
+    },
+    "stepsp": {
+      "title": "Step Setpoint (relative change)",
+      "signature_inferred": "stepsp(Family, Delta [, DeviceList]). Convenience over steppv/setpv; verify against stepsp.m.",
+      "context": "stepsp is the setpoint-specific relative-change verb — it increments a family's Setpoint by a delta. It's what scans and manual knob-turning use most for magnets. Convenience layer over steppv with Field fixed to 'Setpoint'; inherits the same safety/dispatch behavior as setpv.",
+      "unknowns": [
+        "Same base-value question as steppv (setpoint vs. readback as the increment base).",
+        "Whether it standardizes/handles hysteresis for magnet families on each step."
+      ]
+    },
+    "getspos": {
+      "title": "Get s-position (longitudinal location)",
+      "signature_inferred": "getspos(Family [, DeviceList]) → s [m]. Verify against getspos.m.",
+      "context": "getspos returns the longitudinal position 's' (distance along the ring's reference orbit, in metres) of each device in a family. 's' is the standard accelerator coordinate for plotting any quantity 'around the ring' — orbit, beta functions, dispersion, device layouts. Values come from the lattice/AT model rather than from hardware, so this is a model-derived geometric lookup.",
+      "unknowns": [
+        "Which model/source defines s (AD.ATModel vs. a stored survey) and whether it matches as-built survey.",
+        "The s=0 reference point and direction convention at ALS."
+      ]
+    },
+    "getname": {
+      "title": "Get device / channel names",
+      "signature_inferred": "getname(Family [, Field] [, DeviceList]) → name strings. Verify against getname.m.",
+      "context": "getname returns human-readable names for a family's devices — the 'CommonNames' or channel labels used in plots, GUIs, and logs (e.g. 'SR01C BPM1'). It bridges the numeric device list and the labels operators recognize. Read-only metadata lookup from the AO.",
+      "unknowns": [
+        "Which name field it returns by default (CommonNames vs. ChannelNames vs. DeviceName) and how they differ.",
+        "Whether names are stable identifiers safe to key on, or display-only strings."
+      ]
+    },
+    "getbpmlist": {
+      "title": "Get BPM device list",
+      "signature_inferred": "getbpmlist([options]) → BPM device list. Verify against getbpmlist.m.",
+      "context": "getbpmlist is a convenience that returns the list of BPM devices (the [sector, element] rows) to iterate, often with options to include/exclude certain monitors (e.g. only 'golden'/good BPMs, or a particular subset). Orbit display and correction code uses it to get the canonical, possibly-filtered, set of BPMs to read. A specialization of family2dev for the BPM family.",
+      "unknowns": [
+        "What filtering options exist and which subset is the default (all vs. good/golden only)?",
+        "How its 'good BPM' notion relates to the golden/status mask asked about in the BPM family."
+      ]
+    },
+    "getrespmat": {
+      "title": "Get Response Matrix",
+      "signature_inferred": "getrespmat(BPMfamily, CMfamily [, options]) → response matrix. Verify against getrespmat.m.",
+      "context": "getrespmat returns the orbit *response matrix* — the linear map of how each BPM reading changes per unit change of each corrector (HCM/VCM). It is the mathematical core of orbit correction (invert it to find corrector changes that flatten the orbit) and of LOCO (fit the measured response matrix to calibrate the lattice model). The matrix may be measured (from actual corrector steps) or computed from the model (AD.ATModel).",
+      "unknowns": [
+        "Does it return a measured response matrix, a model one, or either on request — and where measured matrices are stored?",
+        "Units and sign conventions of the returned matrix.",
+        "How often the production response matrix is re-measured and by whom."
+      ]
+    },
+    "maxsp": {
+      "title": "Maximum Setpoint (limit lookup)",
+      "signature_inferred": "maxsp(Family [, DeviceList]) → upper setpoint limit. Verify against maxsp.m (likely a minsp counterpart exists).",
+      "context": "maxsp returns the maximum allowed setpoint for a family/device — the upper end of the safe operating range stored in the AO (e.g. AO.*.Range). Scans, knobs, and safety checks use it to avoid commanding values beyond hardware/operational limits. A read-only limit lookup, not a hardware operation.",
+      "unknowns": [
+        "Is the returned limit authoritative (enforced by setpv) or advisory (callers must check themselves)?",
+        "Source of the limit — hardware rating, operational policy, or model — and how current it is.",
+        "Whether limits are energy-scaled or fixed."
+      ]
+    }
+  }
+}

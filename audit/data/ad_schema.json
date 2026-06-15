@@ -1,0 +1,2033 @@
+{
+  "ATModel": {
+    "assignment_count": 17,
+    "distinct_value_count": 9,
+    "values": [
+      "'alslat_loco_3sb_disp_nuy9_124bpms'",
+      "'alslat_loco_3sb_disp_nuy9_122bpms'",
+      "'alslat_loco_3sb_disp_nux16p18_nuyp25_124bpms'",
+      "'alslat_isochronous_sections_122bpms'",
+      "'alslat_isochronous_sections_122bpms_2520tune'",
+      "'alslat_loco_3sb_disp_nux16_124bpms'",
+      "'alslat_loco_3sb_disp_nux16p18_nuyp25_124bpms.m'",
+      "'alslat_loco_3sb_disp_nuy9_122bpms_nux_16_etax_0'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:180",
+      "setoperationalmode.m:212",
+      "setoperationalmode.m:244",
+      "setoperationalmode.m:276",
+      "setoperationalmode.m:311",
+      "setoperationalmode.m:344",
+      "setoperationalmode.m:381",
+      "setoperationalmode.m:411",
+      "setoperationalmode.m:424",
+      "setoperationalmode.m:458",
+      "setoperationalmode.m:490",
+      "setoperationalmode.m:536",
+      "setoperationalmode.m:575",
+      "setoperationalmode.m:616",
+      "setoperationalmode.m:648",
+      "setoperationalmode.m:691",
+      "setoperationalmode.m:722"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:180",
+          "value": "'alslat_loco_3sb_disp_nuy9_124bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "2": [
+        {
+          "source": "setoperationalmode.m:212",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "3": [
+        {
+          "source": "setoperationalmode.m:244",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "4": [
+        {
+          "source": "setoperationalmode.m:276",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "5": [
+        {
+          "source": "setoperationalmode.m:311",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "6": [
+        {
+          "source": "setoperationalmode.m:344",
+          "value": "'alslat_loco_3sb_disp_nux16p18_nuyp25_124bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:381",
+          "value": "'alslat_loco_3sb_disp_nuy9_124bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:411",
+          "value": "'alslat_isochronous_sections_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        },
+        {
+          "source": "setoperationalmode.m:424",
+          "value": "'alslat_isochronous_sections_122bpms_2520tune'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "9": [
+        {
+          "source": "setoperationalmode.m:458",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:490",
+          "value": "'alslat_loco_3sb_disp_nux16_124bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:536",
+          "value": "'alslat_loco_3sb_disp_nux16p18_nuyp25_124bpms.m'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:575",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms_nux_16_etax_0'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:616",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms_splitdipole'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:648",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:691",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:722",
+          "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "BSCRampRate": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "0.8"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:113"
+    ],
+    "mode_specific": {}
+  },
+  "Chromaticity.Golden": {
+    "assignment_count": 16,
+    "distinct_value_count": 4,
+    "values": [
+      "[.6; 1.6]",
+      "[.4; 1]",
+      "[.8; 1.6]",
+      "[1.0; 1.5]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "Moved up for IVID  ([.4; 1] to .8 h & 1.6 to 1.8 v or [-.6;-1.5] in hardware units)",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:193",
+      "setoperationalmode.m:225",
+      "setoperationalmode.m:257",
+      "setoperationalmode.m:292",
+      "setoperationalmode.m:325",
+      "setoperationalmode.m:356",
+      "setoperationalmode.m:394",
+      "setoperationalmode.m:442",
+      "setoperationalmode.m:471",
+      "setoperationalmode.m:502",
+      "setoperationalmode.m:548",
+      "setoperationalmode.m:587",
+      "setoperationalmode.m:630",
+      "setoperationalmode.m:666",
+      "setoperationalmode.m:704",
+      "setoperationalmode.m:735"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:193",
+          "value": "[.6; 1.6]",
+          "rhs_kind": "matrix",
+          "comment": "Moved up for IVID  ([.4; 1] to .8 h & 1.6 to 1.8 v or [-.6;-1.5] in hardware units)"
+        }
+      ],
+      "2": [
+        {
+          "source": "setoperationalmode.m:225",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "3": [
+        {
+          "source": "setoperationalmode.m:257",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "4": [
+        {
+          "source": "setoperationalmode.m:292",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "5": [
+        {
+          "source": "setoperationalmode.m:325",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "6": [
+        {
+          "source": "setoperationalmode.m:356",
+          "value": "[.8; 1.6]",
+          "rhs_kind": "matrix",
+          "comment": "New TFB allow to use lower, multibunch chromaticities in two bunch mode (2015-08-05)"
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:394",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:442",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "9": [
+        {
+          "source": "setoperationalmode.m:471",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:502",
+          "value": "[1.0; 1.5]",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:548",
+          "value": "[.8; 1.6]",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:587",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:630",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:666",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:704",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:735",
+          "value": "[.4; 1]",
+          "rhs_kind": "matrix",
+          "comment": "approx.  [-.6;-1.5] in hardware units"
+        }
+      ]
+    }
+  },
+  "Circumference": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "findspos(THERING,length(THERING)+1)"
+    ],
+    "rhs_kinds": [
+      "function_call"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:894"
+    ],
+    "mode_specific": {}
+  },
+  "Default.ChicaneRespFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'ChicaneRespMat'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "File in AD.Directory.BPMResponse    BPM/Chicane response matrice",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:818"
+    ],
+    "mode_specific": {}
+  },
+  "Default.LFBArchiveFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'LFBConfig'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:808"
+    ],
+    "mode_specific": {}
+  },
+  "Default.TFBArchiveFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'TFBConfig'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:812"
+    ],
+    "mode_specific": {}
+  },
+  "Default.THCArchiveFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'THCConfig'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:816"
+    ],
+    "mode_specific": {}
+  },
+  "DeltaRFChro": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[-2000 -1000 0 1000 2000] * 1e-6"
+    ],
+    "rhs_kinds": [
+      "expression"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:117"
+    ],
+    "mode_specific": {}
+  },
+  "DeltaRFDisp": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "1000e-6"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:116"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.BPMData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'BPM', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:844"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.BPMResponse": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Response', filesep, 'BPM', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:855"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.ChroData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Chromaticity', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:846"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.ChroResponse": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Response', filesep, 'Chromaticity', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:857"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.ConfigData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'MachineConfig', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:848"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.DataRoot": {
+    "assignment_count": 3,
+    "distinct_value_count": 3,
+    "values": [
+      "['m:\\matlab\\', AD.SubMachine, 'Data', filesep, ModeName, filesep]",
+      "['/Volumes/physdata/matlab/', AD.SubMachine, 'Data', filesep, ModeName, filesep]",
+      "['/home/als/physdata/matlab/', AD.SubMachine, 'Data', filesep, ModeName, filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:836",
+      "setoperationalmode.m:838",
+      "setoperationalmode.m:840"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.DispData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Dispersion', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:847"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.DispResponse": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Response', filesep, 'Dispersion', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:858"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.LFBData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'LFB', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:849"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.QMS": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'QMS', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:852"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.SkewResponse": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Response', filesep, 'Skew', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:859"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.TFBData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'TFB', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:850"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.THCData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'THC', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:851"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.TuneData": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Tune', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:845"
+    ],
+    "mode_specific": {}
+  },
+  "Directory.TuneResponse": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.DataRoot, 'Response', filesep, 'Tune', filesep]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:856"
+    ],
+    "mode_specific": {}
+  },
+  "Energy": {
+    "assignment_count": 17,
+    "distinct_value_count": 3,
+    "values": [
+      "1.89086196873342",
+      "1.522",
+      "1.52322"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "Make sure this is the same as bend2gev at the production lattice!",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:172",
+      "setoperationalmode.m:205",
+      "setoperationalmode.m:237",
+      "setoperationalmode.m:270",
+      "setoperationalmode.m:305",
+      "setoperationalmode.m:336",
+      "setoperationalmode.m:373",
+      "setoperationalmode.m:404",
+      "setoperationalmode.m:437",
+      "setoperationalmode.m:451",
+      "setoperationalmode.m:484",
+      "setoperationalmode.m:522",
+      "setoperationalmode.m:569",
+      "setoperationalmode.m:607",
+      "setoperationalmode.m:642",
+      "setoperationalmode.m:685",
+      "setoperationalmode.m:716"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:172",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "2": [
+        {
+          "source": "setoperationalmode.m:205",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "3": [
+        {
+          "source": "setoperationalmode.m:237",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "4": [
+        {
+          "source": "setoperationalmode.m:270",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "5": [
+        {
+          "source": "setoperationalmode.m:305",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "6": [
+        {
+          "source": "setoperationalmode.m:336",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:373",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:404",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        },
+        {
+          "source": "setoperationalmode.m:437",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "9": [
+        {
+          "source": "setoperationalmode.m:451",
+          "value": "1.52322",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:484",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:522",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:569",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:607",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:642",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:685",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:716",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "Make sure this is the same as bend2gev at the production lattice!"
+        }
+      ]
+    }
+  },
+  "ErrorWarningLevel": {
+    "assignment_count": 6,
+    "distinct_value_count": 1,
+    "values": [
+      "0"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:136",
+      "setoperationalmode.m:368",
+      "setoperationalmode.m:517",
+      "setoperationalmode.m:563",
+      "setoperationalmode.m:602",
+      "setoperationalmode.m:680"
+    ],
+    "mode_specific": {
+      "6": [
+        {
+          "source": "setoperationalmode.m:368",
+          "value": "0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:517",
+          "value": "0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:563",
+          "value": "0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:602",
+          "value": "0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:680",
+          "value": "0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "HarmonicNumber": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "328"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:112"
+    ],
+    "mode_specific": {}
+  },
+  "HysteresisBranch": {
+    "assignment_count": 16,
+    "distinct_value_count": 2,
+    "values": [
+      "'Lower'",
+      "'Upper'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:196",
+      "setoperationalmode.m:228",
+      "setoperationalmode.m:260",
+      "setoperationalmode.m:295",
+      "setoperationalmode.m:328",
+      "setoperationalmode.m:359",
+      "setoperationalmode.m:397",
+      "setoperationalmode.m:445",
+      "setoperationalmode.m:474",
+      "setoperationalmode.m:505",
+      "setoperationalmode.m:551",
+      "setoperationalmode.m:590",
+      "setoperationalmode.m:633",
+      "setoperationalmode.m:669",
+      "setoperationalmode.m:707",
+      "setoperationalmode.m:738"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:196",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "2": [
+        {
+          "source": "setoperationalmode.m:228",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "3": [
+        {
+          "source": "setoperationalmode.m:260",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "4": [
+        {
+          "source": "setoperationalmode.m:295",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "5": [
+        {
+          "source": "setoperationalmode.m:328",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "6": [
+        {
+          "source": "setoperationalmode.m:359",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:397",
+          "value": "'Upper'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:445",
+          "value": "'Upper'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "9": [
+        {
+          "source": "setoperationalmode.m:474",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:505",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:551",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:590",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:633",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:669",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:707",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:738",
+          "value": "'Lower'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "HysteresisLoopLowerEnergy": {
+    "assignment_count": 4,
+    "distinct_value_count": 2,
+    "values": [
+      "1.522",
+      "AD.InjectionEnergy"
+    ],
+    "rhs_kinds": [
+      "ao_reference",
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:783",
+      "setoperationalmode.m:791",
+      "setoperationalmode.m:798",
+      "setoperationalmode.m:803"
+    ],
+    "mode_specific": {
+      "7": [
+        {
+          "source": "setoperationalmode.m:791",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "HysteresisLoopUpperEnergy": {
+    "assignment_count": 4,
+    "distinct_value_count": 2,
+    "values": [
+      "AD.Energy",
+      "1.89086196873342"
+    ],
+    "rhs_kinds": [
+      "ao_reference",
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:782",
+      "setoperationalmode.m:790",
+      "setoperationalmode.m:797",
+      "setoperationalmode.m:802"
+    ],
+    "mode_specific": {
+      "7": [
+        {
+          "source": "setoperationalmode.m:790",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "InjectionEnergy": {
+    "assignment_count": 17,
+    "distinct_value_count": 4,
+    "values": [
+      "1.89086196873342",
+      "1.353",
+      "1.230",
+      "1.522"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:173",
+      "setoperationalmode.m:206",
+      "setoperationalmode.m:238",
+      "setoperationalmode.m:271",
+      "setoperationalmode.m:306",
+      "setoperationalmode.m:337",
+      "setoperationalmode.m:374",
+      "setoperationalmode.m:405",
+      "setoperationalmode.m:438",
+      "setoperationalmode.m:452",
+      "setoperationalmode.m:485",
+      "setoperationalmode.m:523",
+      "setoperationalmode.m:570",
+      "setoperationalmode.m:608",
+      "setoperationalmode.m:643",
+      "setoperationalmode.m:686",
+      "setoperationalmode.m:717"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:173",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "2": [
+        {
+          "source": "setoperationalmode.m:206",
+          "value": "1.353",
+          "rhs_kind": "numeric_literal",
+          "comment": "changed during 9-10-07 physics when BR was tuned for higher injection energy - T.Scarvie,C.Steier"
+        }
+      ],
+      "3": [
+        {
+          "source": "setoperationalmode.m:238",
+          "value": "1.230",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "4": [
+        {
+          "source": "setoperationalmode.m:271",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "5": [
+        {
+          "source": "setoperationalmode.m:306",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "6": [
+        {
+          "source": "setoperationalmode.m:337",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "%% changed to 1.522 for use with old BR Bend supply - 3-17-08 - T.Scarvie"
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:374",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:405",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        },
+        {
+          "source": "setoperationalmode.m:438",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "9": [
+        {
+          "source": "setoperationalmode.m:452",
+          "value": "1.353",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:485",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:523",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:570",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:608",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:643",
+          "value": "1.89086196873342",
+          "rhs_kind": "numeric_literal",
+          "comment": "1.522;"
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:686",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:717",
+          "value": "1.522",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "MCF": {
+    "assignment_count": 3,
+    "distinct_value_count": 3,
+    "values": [
+      "8.9059e-04",
+      "MCF",
+      "8.9059e-004"
+    ],
+    "rhs_kinds": [
+      "expression",
+      "numeric_literal"
+    ],
+    "comment": "was 0.00137038;  % was 0.0013884;",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:916",
+      "setoperationalmode.m:919",
+      "setoperationalmode.m:923"
+    ],
+    "mode_specific": {}
+  },
+  "MMLRoot": {
+    "assignment_count": 3,
+    "distinct_value_count": 3,
+    "values": [
+      "'N:\\mmlt\\'",
+      "'/Volumes/physbase/mmlt'",
+      "'/home/als/physbase/mmlt/'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:753",
+      "setoperationalmode.m:755",
+      "setoperationalmode.m:757"
+    ],
+    "mode_specific": {}
+  },
+  "Machine": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'ALS'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "Will already be defined if setpathmml was used",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:107"
+    ],
+    "mode_specific": {}
+  },
+  "MachineType": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'StorageRing'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "Will already be defined if setpathmml was used",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:109"
+    ],
+    "mode_specific": {}
+  },
+  "OperationalMode": {
+    "assignment_count": 17,
+    "distinct_value_count": 17,
+    "values": [
+      "''",
+      "'1.9 GeV, TopOff'",
+      "'1.9 GeV, Inject at 1.353'",
+      "'1.9 GeV, Inject at 1.23'",
+      "'1.9 GeV, High Tune'",
+      "'1.9 GeV, Low Tune'",
+      "'1.9 GeV, Two-Bunch'",
+      "'1.5 GeV, High Tune'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "Gets filled in later",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:110",
+      "setoperationalmode.m:171",
+      "setoperationalmode.m:207",
+      "setoperationalmode.m:239",
+      "setoperationalmode.m:269",
+      "setoperationalmode.m:304",
+      "setoperationalmode.m:335",
+      "setoperationalmode.m:372",
+      "setoperationalmode.m:403",
+      "setoperationalmode.m:453",
+      "setoperationalmode.m:483",
+      "setoperationalmode.m:521",
+      "setoperationalmode.m:568",
+      "setoperationalmode.m:606",
+      "setoperationalmode.m:641",
+      "setoperationalmode.m:684",
+      "setoperationalmode.m:715"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:171",
+          "value": "'1.9 GeV, TopOff'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "2": [
+        {
+          "source": "setoperationalmode.m:207",
+          "value": "'1.9 GeV, Inject at 1.353'",
+          "rhs_kind": "string_literal",
+          "comment": "Keep the mode name the same since it's used in srcontrol, etc."
+        }
+      ],
+      "3": [
+        {
+          "source": "setoperationalmode.m:239",
+          "value": "'1.9 GeV, Inject at 1.23'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "4": [
+        {
+          "source": "setoperationalmode.m:269",
+          "value": "'1.9 GeV, High Tune'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "5": [
+        {
+          "source": "setoperationalmode.m:304",
+          "value": "'1.9 GeV, Low Tune'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "6": [
+        {
+          "source": "setoperationalmode.m:335",
+          "value": "'1.9 GeV, Two-Bunch'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:372",
+          "value": "'1.5 GeV, High Tune'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:403",
+          "value": "'1.5 GeV, Isochronous Sections'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "9": [
+        {
+          "source": "setoperationalmode.m:453",
+          "value": "'1.5 GeV, Inject at 1.353'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "10": [
+        {
+          "source": "setoperationalmode.m:483",
+          "value": "'1.9 GeV, Low Emittance Mode'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:521",
+          "value": "'Pseudo-Single Bunch (0.18,0.25)'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "99": [
+        {
+          "source": "setoperationalmode.m:568",
+          "value": "'1.9 GeV, High Tune Mode'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:606",
+          "value": "'1.9 GeV, Model'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:641",
+          "value": "'1.9 GeV, Greg Mode'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:684",
+          "value": "'1.9 GeV, Tom Mode'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:715",
+          "value": "'1.9 GeV, Christoph Mode'",
+          "rhs_kind": "string_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "OpsData.ChicaneRespFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "['GoldenChicaneResp', OpsFileExtension]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:819"
+    ],
+    "mode_specific": {}
+  },
+  "OpsData.HysteresisLoopLowerLattice": {
+    "assignment_count": 5,
+    "distinct_value_count": 4,
+    "values": [
+      "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, 'InjectionConfig_HighTune']",
+      "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, 'CyclingConfig_LowEmittance']",
+      "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.InjectionFile]",
+      "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.LatticeFile]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:778",
+      "setoperationalmode.m:780",
+      "setoperationalmode.m:789",
+      "setoperationalmode.m:795",
+      "setoperationalmode.m:801"
+    ],
+    "mode_specific": {
+      "10": [
+        {
+          "source": "setoperationalmode.m:778",
+          "value": "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, 'CyclingConfig_LowEmittance']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "7": [
+        {
+          "source": "setoperationalmode.m:789",
+          "value": "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.LatticeFile]",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "OpsData.HysteresisLoopUpperLattice": {
+    "assignment_count": 5,
+    "distinct_value_count": 3,
+    "values": [
+      "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.LatticeFile]",
+      "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.InjectionFile]",
+      "[MMLROOT, 'machine', filesep, 'ALS', filesep, 'StorageRingOpsData', filesep, 'HighTune', filesep, 'GoldenConfig_HighTune']"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:1107",
+      "setoperationalmode.m:776",
+      "setoperationalmode.m:788",
+      "setoperationalmode.m:794",
+      "setoperationalmode.m:800"
+    ],
+    "mode_specific": {
+      "7": [
+        {
+          "source": "setoperationalmode.m:788",
+          "value": "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.InjectionFile]",
+          "rhs_kind": "matrix",
+          "comment": ""
+        },
+        {
+          "source": "setoperationalmode.m:1107",
+          "value": "[MMLROOT, 'machine', filesep, 'ALS', filesep, 'StorageRingOpsData', filesep, 'HighTune', filesep, 'GoldenConfig_HighTune']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "8": [
+        {
+          "source": "setoperationalmode.m:1107",
+          "value": "[MMLROOT, 'machine', filesep, 'ALS', filesep, 'StorageRingOpsData', filesep, 'HighTune', filesep, 'GoldenConfig_HighTune']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "OpsData.LFBFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "['LFBConfig', OpsFileExtension]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:807"
+    ],
+    "mode_specific": {}
+  },
+  "OpsData.LOCOFile": {
+    "assignment_count": 4,
+    "distinct_value_count": 2,
+    "values": [
+      "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+      "[getfamilydata('Directory','OpsData'),'LOCO_Production']"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:1079",
+      "setoperationalmode.m:1236",
+      "setoperationalmode.m:1269",
+      "setoperationalmode.m:957"
+    ],
+    "mode_specific": {
+      "7": [
+        {
+          "source": "setoperationalmode.m:1079",
+          "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        },
+        {
+          "source": "setoperationalmode.m:1236",
+          "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        },
+        {
+          "source": "setoperationalmode.m:1269",
+          "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:1236",
+          "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        },
+        {
+          "source": "setoperationalmode.m:1269",
+          "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ],
+      "888": [
+        {
+          "source": "setoperationalmode.m:1269",
+          "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production']",
+          "rhs_kind": "matrix",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "OpsData.RespFiles": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "[AD.Directory.OpsData, AD.OpsData.ChicaneRespFile]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": true,
+    "any_indexed_update": true,
+    "sources": [
+      "setoperationalmode.m:821"
+    ],
+    "mode_specific": {}
+  },
+  "OpsData.TFBFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "['TFBConfig', OpsFileExtension]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:811"
+    ],
+    "mode_specific": {}
+  },
+  "OpsData.THCFile": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "['THCConfig', OpsFileExtension]"
+    ],
+    "rhs_kinds": [
+      "matrix"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:815"
+    ],
+    "mode_specific": {}
+  },
+  "PseudoSingleBunch": {
+    "assignment_count": 4,
+    "distinct_value_count": 3,
+    "values": [
+      "''",
+      "0",
+      "'Off'"
+    ],
+    "rhs_kinds": [
+      "numeric_literal",
+      "string_literal"
+    ],
+    "comment": "Gets filled in later",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:111",
+      "setoperationalmode.m:157",
+      "setoperationalmode.m:168",
+      "setoperationalmode.m:177"
+    ],
+    "mode_specific": {
+      "1": [
+        {
+          "source": "setoperationalmode.m:177",
+          "value": "'Off'",
+          "rhs_kind": "string_literal",
+          "comment": "Special feature"
+        }
+      ]
+    }
+  },
+  "SubMachine": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "'StorageRing'"
+    ],
+    "rhs_kinds": [
+      "string_literal"
+    ],
+    "comment": "Will already be defined if setpathmml was used",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:108"
+    ],
+    "mode_specific": {}
+  },
+  "TimeZone": {
+    "assignment_count": 4,
+    "distinct_value_count": 3,
+    "values": [
+      "gettimezone",
+      "gettimezone('cmm:beam_current')",
+      "-8 + isdaylightsavings"
+    ],
+    "rhs_kinds": [
+      "expression",
+      "function_call"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:831",
+      "setoperationalmode.m:875",
+      "setoperationalmode.m:877",
+      "setoperationalmode.m:883"
+    ],
+    "mode_specific": {}
+  },
+  "TuneDelay": {
+    "assignment_count": 6,
+    "distinct_value_count": 2,
+    "values": [
+      "3.0",
+      "0.0"
+    ],
+    "rhs_kinds": [
+      "numeric_literal"
+    ],
+    "comment": "this works for Libera based tune measurement with SR Bumps triggering normally",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:124",
+      "setoperationalmode.m:592",
+      "setoperationalmode.m:635",
+      "setoperationalmode.m:671",
+      "setoperationalmode.m:709",
+      "setoperationalmode.m:740"
+    ],
+    "mode_specific": {
+      "99": [
+        {
+          "source": "setoperationalmode.m:592",
+          "value": "0.0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "101": [
+        {
+          "source": "setoperationalmode.m:635",
+          "value": "0.0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "999": [
+        {
+          "source": "setoperationalmode.m:671",
+          "value": "0.0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "9999": [
+        {
+          "source": "setoperationalmode.m:709",
+          "value": "0.0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ],
+      "100": [
+        {
+          "source": "setoperationalmode.m:740",
+          "value": "0.0",
+          "rhs_kind": "numeric_literal",
+          "comment": ""
+        }
+      ]
+    }
+  },
+  "getmachineconfigfunction": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "@setmachineconfig_sr"
+    ],
+    "rhs_kinds": [
+      "expression"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:890"
+    ],
+    "mode_specific": {}
+  },
+  "setmachineconfigfunction": {
+    "assignment_count": 1,
+    "distinct_value_count": 1,
+    "values": [
+      "@setmachineconfig_sr"
+    ],
+    "rhs_kinds": [
+      "expression"
+    ],
+    "comment": "",
+    "is_indexed_update": false,
+    "any_indexed_update": false,
+    "sources": [
+      "setoperationalmode.m:889"
+    ],
+    "mode_specific": {}
+  }
+}

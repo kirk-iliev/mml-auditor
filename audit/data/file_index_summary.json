@@ -1,0 +1,24 @@
+{
+  "total_files": 2424,
+  "by_root": {
+    "mml": 485,
+    "machine/ALS/StorageRing": 1116,
+    "machine/ALS/Booster": 124,
+    "machine/ALS/BTS": 50,
+    "machine/ALS/GTB": 96,
+    "machine/ALS/Common": 553
+  },
+  "by_kind": {
+    "class_method": 17,
+    "contents": 2,
+    "function": 1842,
+    "script": 563
+  },
+  "with_help": 2062,
+  "with_dynamic_dispatch": 267,
+  "name_mismatches": 314,
+  "in_legacy_folder": 121,
+  "in_class_folder": 17,
+  "no_function_line": 563,
+  "parser_failures": 0
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mml-audit": {
+      "command": "python3",
+      "args": ["audit/mcp/server.py"]
+    }
+  }
+}

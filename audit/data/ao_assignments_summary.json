@@ -1,0 +1,657 @@
+{
+  "total_assignments": 3092,
+  "by_file": {
+    "machine/ALS/StorageRing/alsinit.m": 2799,
+    "machine/ALS/StorageRing/setoperationalmode.m": 240,
+    "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m": 53
+  },
+  "by_root": {
+    "AO": 2856,
+    "AD": 184
+  },
+  "by_rhs_kind": {
+    "string_literal": 1449,
+    "cell_array": 293,
+    "matrix": 239,
+    "ao_reference": 293,
+    "numeric_literal": 480,
+    "function_call": 52,
+    "expression": 263,
+    "dynamic_field": 23
+  },
+  "indexed_updates": 149,
+  "root_rebinds": 29,
+  "parse_failures_count": 0,
+  "parse_failures_examples": [],
+  "dynamic_field_count": 23,
+  "dynamic_field_examples": [
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 361,
+      "snippet": "AO.BPM.(FieldsToArchive{i}).MemberOf{j+1} = 'Archive';"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4855,
+      "snippet": "AO.(Family{i}).CommonNames = strcat(AO.(Family{i}).Monitor.ChannelNames(:,1:5), '^', B);"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4857,
+      "snippet": "AO.(Family{i}).CommonNames(AO.(Family{i}).CommonNames=='^') = ' ';"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4893,
+      "snippet": "AO.(Family).Monitor.ChannelNames(i,:)  = [BaseName, ':MRI    '];"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4894,
+      "snippet": "AO.(Family).Reset.ChannelNames(i,:)    = [BaseName, ':MRESET '];"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4896,
+      "snippet": "AO.(Family).OnControl.ChannelNames(i,:) = [BaseName, ':MON    '];"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4898,
+      "snippet": "AO.(Family).RampRate.ChannelNames(i,:)  = '                   ';"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4909,
+      "snippet": "AO.(Family).BaseName{i,1}   = BaseName;"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4910,
+      "snippet": "AO.(Family).DeviceType{i,1} = 'Caen FASTPS';"
+    },
+    {
+      "file": "machine/ALS/StorageRing/alsinit.m",
+      "line": 4925,
+      "snippet": "AO.(Family).Monitor.ChannelNames(i,:)  = [BaseName, ':MRI    '];"
+    }
+  ],
+  "ao_families": {
+    "BEND": {
+      "assignments": 107,
+      "distinct_fields": 103,
+      "sample_fields": [
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams",
+        "DAC.PhysicsUnits"
+      ]
+    },
+    "BOTTOMSCRAPER": {
+      "assignments": 85,
+      "distinct_fields": 83,
+      "sample_fields": [
+        "CommonNames",
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Home.ChannelNames",
+        "Home.DataType",
+        "Home.HW2PhysicsParams",
+        "Home.HWUnits"
+      ]
+    },
+    "BPM": {
+      "assignments": 18,
+      "distinct_fields": 16,
+      "sample_fields": [
+        "Position",
+        "Status",
+        "X.Golden",
+        "X.Offset",
+        "XGolden.HW2PhysicsParams",
+        "XGolden.HWUnits",
+        "XGolden.Physics2HWParams",
+        "XGolden.PhysicsUnits"
+      ]
+    },
+    "BPMx": {
+      "assignments": 58,
+      "distinct_fields": 52,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Golden",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsParams"
+      ]
+    },
+    "BPMy": {
+      "assignments": 50,
+      "distinct_fields": 44,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Golden",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsParams"
+      ]
+    },
+    "BSC": {
+      "assignments": 43,
+      "distinct_fields": 42,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Limit.ChannelNames",
+        "Limit.DataType",
+        "Limit.HW2PhysicsFcn",
+        "Limit.HWUnits",
+        "Limit.MemberOf"
+      ]
+    },
+    "DCCT": {
+      "assignments": 53,
+      "distinct_fields": 53,
+      "sample_fields": [
+        "Avg.ChannelNames",
+        "Avg.DataType",
+        "Avg.HW2PhysicsParams",
+        "Avg.HWUnits",
+        "Avg.MemberOf",
+        "Avg.Mode",
+        "Avg.Physics2HWParams",
+        "Avg.PhysicsUnits"
+      ]
+    },
+    "EPU": {
+      "assignments": 164,
+      "distinct_fields": 152,
+      "sample_fields": [
+        "Amp.ChannelNames",
+        "Amp.DataType",
+        "Amp.HW2PhysicsParams",
+        "Amp.HWUnits",
+        "Amp.MemberOf",
+        "Amp.Mode",
+        "Amp.Physics2HWParams",
+        "Amp.PhysicsUnits"
+      ]
+    },
+    "GeV": {
+      "assignments": 25,
+      "distinct_fields": 25,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsParams",
+        "Monitor.HWUnits",
+        "Monitor.MemberOf"
+      ]
+    },
+    "HCM": {
+      "assignments": 201,
+      "distinct_fields": 159,
+      "sample_fields": [
+        "BaseName",
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams"
+      ]
+    },
+    "HCMCHICANE": {
+      "assignments": 72,
+      "distinct_fields": 72,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsFcn",
+        "Monitor.HWUnits"
+      ]
+    },
+    "HCMCHICANEM": {
+      "assignments": 47,
+      "distinct_fields": 47,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.AT.SpecialFunctionGet",
+        "Monitor.AT.SpecialFunctionSet",
+        "Monitor.ChannelNames",
+        "Monitor.DataType"
+      ]
+    },
+    "HCMFOFB": {
+      "assignments": 8,
+      "distinct_fields": 8,
+      "sample_fields": [
+        "FF1",
+        "FF1.ChannelNames",
+        "FF2",
+        "FF2.ChannelNames",
+        "Position",
+        "Setpoint.ChannelNames",
+        "Trim",
+        "Trim.ChannelNames"
+      ]
+    },
+    "ID": {
+      "assignments": 174,
+      "distinct_fields": 165,
+      "sample_fields": [
+        "Amp.ChannelNames",
+        "Amp.DataType",
+        "Amp.HW2PhysicsParams",
+        "Amp.HWUnits",
+        "Amp.MemberOf",
+        "Amp.Mode",
+        "Amp.Physics2HWParams",
+        "Amp.PhysicsUnits"
+      ]
+    },
+    "INSIDESCRAPER": {
+      "assignments": 84,
+      "distinct_fields": 83,
+      "sample_fields": [
+        "CommonNames",
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Home.ChannelNames",
+        "Home.DataType",
+        "Home.HW2PhysicsParams",
+        "Home.HWUnits"
+      ]
+    },
+    "IonGauge": {
+      "assignments": 15,
+      "distinct_fields": 15,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsParams",
+        "Monitor.HWUnits"
+      ]
+    },
+    "IonPump": {
+      "assignments": 27,
+      "distinct_fields": 24,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsParams",
+        "Monitor.HWUnits"
+      ]
+    },
+    "QD": {
+      "assignments": 137,
+      "distinct_fields": 137,
+      "sample_fields": [
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams",
+        "DAC.PhysicsUnits"
+      ]
+    },
+    "QDA": {
+      "assignments": 102,
+      "distinct_fields": 102,
+      "sample_fields": [
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams",
+        "DAC.PhysicsUnits"
+      ]
+    },
+    "QF": {
+      "assignments": 146,
+      "distinct_fields": 137,
+      "sample_fields": [
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams",
+        "DAC.PhysicsUnits"
+      ]
+    },
+    "QFA": {
+      "assignments": 142,
+      "distinct_fields": 134,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.Gain",
+        "Monitor.HW2PhysicsFcn"
+      ]
+    },
+    "RF": {
+      "assignments": 46,
+      "distinct_fields": 46,
+      "sample_fields": [
+        "CavityTemperature1.ChannelNames",
+        "CavityTemperature1.DataType",
+        "CavityTemperature1.HW2PhysicsParams",
+        "CavityTemperature1.HWUnits",
+        "CavityTemperature1.MemberOf",
+        "CavityTemperature1.Mode",
+        "CavityTemperature1.Physics2HWParams",
+        "CavityTemperature1.PhysicsUnits"
+      ]
+    },
+    "SD": {
+      "assignments": 104,
+      "distinct_fields": 103,
+      "sample_fields": [
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams",
+        "DAC.PhysicsUnits"
+      ]
+    },
+    "SF": {
+      "assignments": 104,
+      "distinct_fields": 103,
+      "sample_fields": [
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams",
+        "DAC.PhysicsUnits"
+      ]
+    },
+    "SHD": {
+      "assignments": 89,
+      "distinct_fields": 86,
+      "sample_fields": [
+        "BaseName",
+        "DeviceList",
+        "DeviceType",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType"
+      ]
+    },
+    "SHF": {
+      "assignments": 91,
+      "distinct_fields": 86,
+      "sample_fields": [
+        "BaseName",
+        "DeviceList",
+        "DeviceType",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType"
+      ]
+    },
+    "SQEPU": {
+      "assignments": 109,
+      "distinct_fields": 102,
+      "sample_fields": [
+        "BaseName",
+        "CommonNames",
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode"
+      ]
+    },
+    "SQSD": {
+      "assignments": 28,
+      "distinct_fields": 27,
+      "sample_fields": [
+        "BaseName",
+        "CommonNames",
+        "DeviceList",
+        "DeviceType",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.HW2PhysicsFcn"
+      ]
+    },
+    "SQSF": {
+      "assignments": 33,
+      "distinct_fields": 32,
+      "sample_fields": [
+        "BaseName",
+        "CommonNames",
+        "DeviceList",
+        "DeviceType",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.HW2PhysicsFcn"
+      ]
+    },
+    "SQSHF": {
+      "assignments": 55,
+      "distinct_fields": 49,
+      "sample_fields": [
+        "BaseName",
+        "CommonNames",
+        "DeviceList",
+        "DeviceType",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor"
+      ]
+    },
+    "THC": {
+      "assignments": 36,
+      "distinct_fields": 36,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "Error.ChannelNames",
+        "Error.DataType",
+        "Error.HW2PhysicsParams",
+        "Error.HWUnits",
+        "Error.MemberOf",
+        "Error.Mode"
+      ]
+    },
+    "TOPSCRAPER": {
+      "assignments": 86,
+      "distinct_fields": 83,
+      "sample_fields": [
+        "CommonNames",
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Home.ChannelNames",
+        "Home.DataType",
+        "Home.HW2PhysicsParams",
+        "Home.HWUnits"
+      ]
+    },
+    "TUNE": {
+      "assignments": 41,
+      "distinct_fields": 25,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "Measure.DataType",
+        "Measure.HW2PhysicsParams",
+        "Measure.HWUnits",
+        "Measure.MemberOf",
+        "Measure.Mode"
+      ]
+    },
+    "VCM": {
+      "assignments": 196,
+      "distinct_fields": 159,
+      "sample_fields": [
+        "BaseName",
+        "DAC.ChannelNames",
+        "DAC.DataType",
+        "DAC.HW2PhysicsParams",
+        "DAC.HWUnits",
+        "DAC.MemberOf",
+        "DAC.Mode",
+        "DAC.Physics2HWParams"
+      ]
+    },
+    "VCMCHICANE": {
+      "assignments": 72,
+      "distinct_fields": 72,
+      "sample_fields": [
+        "DeviceList",
+        "ElementList",
+        "FamilyName",
+        "MemberOf",
+        "Monitor.ChannelNames",
+        "Monitor.DataType",
+        "Monitor.HW2PhysicsFcn",
+        "Monitor.HWUnits"
+      ]
+    },
+    "VCMFOFB": {
+      "assignments": 8,
+      "distinct_fields": 8,
+      "sample_fields": [
+        "FF1",
+        "FF1.ChannelNames",
+        "FF2",
+        "FF2.ChannelNames",
+        "Position",
+        "Setpoint.ChannelNames",
+        "Trim",
+        "Trim.ChannelNames"
+      ]
+    }
+  },
+  "ad_distinct_paths": [
+    "ATModel",
+    "BSCRampRate",
+    "Chromaticity.Golden",
+    "Circumference",
+    "Default.ChicaneRespFile",
+    "Default.LFBArchiveFile",
+    "Default.TFBArchiveFile",
+    "Default.THCArchiveFile",
+    "DeltaRFChro",
+    "DeltaRFDisp",
+    "Directory.BPMData",
+    "Directory.BPMResponse",
+    "Directory.ChroData",
+    "Directory.ChroResponse",
+    "Directory.ConfigData",
+    "Directory.DataRoot",
+    "Directory.DispData",
+    "Directory.DispResponse",
+    "Directory.LFBData",
+    "Directory.QMS",
+    "Directory.SkewResponse",
+    "Directory.TFBData",
+    "Directory.THCData",
+    "Directory.TuneData",
+    "Directory.TuneResponse",
+    "Energy",
+    "ErrorWarningLevel",
+    "HarmonicNumber",
+    "HysteresisBranch",
+    "HysteresisLoopLowerEnergy",
+    "HysteresisLoopUpperEnergy",
+    "InjectionEnergy",
+    "MCF",
+    "MMLRoot",
+    "Machine",
+    "MachineType",
+    "OperationalMode",
+    "OpsData.ChicaneRespFile",
+    "OpsData.HysteresisLoopLowerLattice",
+    "OpsData.HysteresisLoopUpperLattice",
+    "OpsData.LFBFile",
+    "OpsData.LOCOFile",
+    "OpsData.RespFiles",
+    "OpsData.TFBFile",
+    "OpsData.THCFile",
+    "PseudoSingleBunch",
+    "SubMachine",
+    "TimeZone",
+    "TuneDelay",
+    "getmachineconfigfunction",
+    "setmachineconfigfunction"
+  ],
+  "by_mode": {
+    "1": 8,
+    "2": 7,
+    "3": 7,
+    "4": 7,
+    "5": 7,
+    "6": 8,
+    "7": 31,
+    "8": 14,
+    "9": 7,
+    "10": 9,
+    "888": 23,
+    "99": 9,
+    "101": 8,
+    "999": 25,
+    "9999": 8,
+    "100": 8
+  },
+  "extracted_at": "2026-05-27T22:35:43.160823+00:00"
+}

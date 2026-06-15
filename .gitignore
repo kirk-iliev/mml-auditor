@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Root-level scratch/session notes (not the tracked audit/notes/ docs).
+/notes/
+
+# --- The MML source tree is deliberately NOT tracked on this branch ---------
+# This branch is the shareable auditor: browser.html + the MCP server + the
+# data they need. The 136 MB MML tree itself is not included. Its source still
+# travels with the repo in two compact forms:
+#   * audit/data/source_bundle.json.gz  (~2k ALS files, what the MCP server reads)
+#   * audit/browser.html                (same files, embedded + lazy-decompressed)
+# The directories below are kept on disk locally so the extractor pipeline stays
+# re-runnable, but ignored here so they don't get re-added to this branch.
+/machine/
+/simulators/
+/online/
+/mml/
+/applications/
+/docs/
+
+# 69 MB extractor intermediate — never loaded by the server or browser.
+audit/data/call_graph_edges.jsonl

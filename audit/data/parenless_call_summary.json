@@ -1,0 +1,169 @@
+{
+  "total_parenless_edges": 9985,
+  "distinct_callers": 1032,
+  "distinct_callees": 333,
+  "top_parenless_callees": [
+    {
+      "name": "now",
+      "calls": 2454
+    },
+    {
+      "name": "getsrstate",
+      "calls": 1186
+    },
+    {
+      "name": "getdcct",
+      "calls": 710
+    },
+    {
+      "name": "getenergy",
+      "calls": 373
+    },
+    {
+      "name": "soundquestion_nobits",
+      "calls": 248
+    },
+    {
+      "name": "amp2k",
+      "calls": 236
+    },
+    {
+      "name": "k2amp",
+      "calls": 236
+    },
+    {
+      "name": "checkforao",
+      "calls": 231
+    },
+    {
+      "name": "sounderror",
+      "calls": 228
+    },
+    {
+      "name": "getao",
+      "calls": 220
+    },
+    {
+      "name": "soundtada",
+      "calls": 192
+    },
+    {
+      "name": "getrf",
+      "calls": 172
+    },
+    {
+      "name": "write_alarms_srmags_nominal",
+      "calls": 141
+    },
+    {
+      "name": "getproductionlattice",
+      "calls": 138
+    },
+    {
+      "name": "switch2hw",
+      "calls": 133
+    },
+    {
+      "name": "write_alarms_srmags_single",
+      "calls": 113
+    },
+    {
+      "name": "getmmlroot",
+      "calls": 91
+    },
+    {
+      "name": "getinjectionlattice",
+      "calls": 87
+    },
+    {
+      "name": "getid",
+      "calls": 79
+    },
+    {
+      "name": "bend2gev",
+      "calls": 77
+    },
+    {
+      "name": "alslat_loco_3sb_disp_nuy9_122bpms",
+      "calls": 69
+    },
+    {
+      "name": "getbpmtimeconstant",
+      "calls": 62
+    },
+    {
+      "name": "getad",
+      "calls": 61
+    },
+    {
+      "name": "arglobal",
+      "calls": 60
+    },
+    {
+      "name": "gethbpmfamily",
+      "calls": 58
+    }
+  ],
+  "top_parenless_callers_by_fanout": [
+    {
+      "path": "machine/ALS/StorageRing/alsinit.m",
+      "out": 184
+    },
+    {
+      "path": "machine/ALS/StorageRing/alsinit_20260115_backup.m",
+      "out": 184
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/alsinit_save20140506.m",
+      "out": 158
+    },
+    {
+      "path": "machine/ALS/StorageRing/_Attic/srcontrol_20240910.m",
+      "out": 128
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_20170924.m",
+      "out": 127
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_20200922.m",
+      "out": 127
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_switchyard_11-17-2021.m",
+      "out": 127
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_switchyard_2021_11_01.m",
+      "out": 127
+    },
+    {
+      "path": "machine/ALS/StorageRing/srcontrol.m",
+      "out": 127
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_20210625.m",
+      "out": 126
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_20220310.m",
+      "out": 126
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_20231015.m",
+      "out": 126
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_switchyard_20220310.m",
+      "out": 126
+    },
+    {
+      "path": "machine/ALS/StorageRing/Old/srcontrol_switchyard_Oct18_2021.m",
+      "out": 126
+    },
+    {
+      "path": "machine/ALS/StorageRing/srcontrol_switchyard.m",
+      "out": 126
+    }
+  ]
+}

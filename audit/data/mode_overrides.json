@@ -1,0 +1,1586 @@
+{
+  "1": {
+    "name": "1.9 GeV, TopOff",
+    "assignment_count": 8,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_124bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:180"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.6; 1.6]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:193"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:172"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:196"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:173"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, TopOff'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:171"
+      },
+      {
+        "lhs_full": "AD.PseudoSingleBunch",
+        "family": null,
+        "subpath": "PseudoSingleBunch",
+        "value": "'Off'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:177"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:186"
+      }
+    ]
+  },
+  "2": {
+    "name": "1.9 GeV, Inject at 1.353",
+    "assignment_count": 7,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:212"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:225"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:205"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:228"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.353",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:206"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Inject at 1.353'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:207"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:218"
+      }
+    ]
+  },
+  "3": {
+    "name": "1.9 GeV, Inject at 1.23",
+    "assignment_count": 7,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:244"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:257"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:237"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:260"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.230",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:238"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Inject at 1.23'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:239"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:250"
+      }
+    ]
+  },
+  "4": {
+    "name": "1.9 GeV, High Tune",
+    "assignment_count": 7,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:276"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:292"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:270"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:295"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:271"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, High Tune'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:269"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:285"
+      }
+    ]
+  },
+  "5": {
+    "name": "1.9 GeV, Low Tune",
+    "assignment_count": 7,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:311"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:325"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:305"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:328"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:306"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Low Tune'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:304"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:317"
+      }
+    ]
+  },
+  "6": {
+    "name": "1.9 GeV, Two-Bunch",
+    "assignment_count": 8,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nux16p18_nuyp25_124bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:344"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.8; 1.6]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:356"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:336"
+      },
+      {
+        "lhs_full": "AD.ErrorWarningLevel",
+        "family": null,
+        "subpath": "ErrorWarningLevel",
+        "value": "0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:368"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:359"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:337"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Two-Bunch'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:335"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.165 0.25 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:349"
+      }
+    ]
+  },
+  "7": {
+    "name": "1.5 GeV, High Tune",
+    "assignment_count": 31,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_124bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:381"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:394"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:373"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Upper'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:397"
+      },
+      {
+        "lhs_full": "AD.HysteresisLoopLowerEnergy",
+        "family": null,
+        "subpath": "HysteresisLoopLowerEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:791"
+      },
+      {
+        "lhs_full": "AD.HysteresisLoopUpperEnergy",
+        "family": null,
+        "subpath": "HysteresisLoopUpperEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:790"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:374"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.5 GeV, High Tune'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:372"
+      },
+      {
+        "lhs_full": "AD.OpsData.HysteresisLoopLowerLattice",
+        "family": null,
+        "subpath": "OpsData.HysteresisLoopLowerLattice",
+        "value": "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.LatticeFile]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:789"
+      },
+      {
+        "lhs_full": "AD.OpsData.HysteresisLoopUpperLattice",
+        "family": null,
+        "subpath": "OpsData.HysteresisLoopUpperLattice",
+        "value": "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, AD.OpsData.InjectionFile]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:788"
+      },
+      {
+        "lhs_full": "AD.OpsData.HysteresisLoopUpperLattice",
+        "family": null,
+        "subpath": "OpsData.HysteresisLoopUpperLattice",
+        "value": "[MMLROOT, 'machine', filesep, 'ALS', filesep, 'StorageRingOpsData', filesep, 'HighTune', filesep, 'GoldenConfig_HighTune']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1107"
+      },
+      {
+        "lhs_full": "AD.OpsData.LOCOFile",
+        "family": null,
+        "subpath": "OpsData.LOCOFile",
+        "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1079"
+      },
+      {
+        "lhs_full": "AD.OpsData.LOCOFile",
+        "family": null,
+        "subpath": "OpsData.LOCOFile",
+        "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1236"
+      },
+      {
+        "lhs_full": "AD.OpsData.LOCOFile",
+        "family": null,
+        "subpath": "OpsData.LOCOFile",
+        "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1269"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Golden",
+        "family": "BPM",
+        "subpath": "X.Golden",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3308"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Golden",
+        "family": "BPM",
+        "subpath": "X.Golden",
+        "value": "AO.BPMx.Golden(i)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3310"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Offset",
+        "family": "BPM",
+        "subpath": "X.Offset",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3309"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Golden",
+        "family": "BPM",
+        "subpath": "Y.Golden",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3312"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Golden",
+        "family": "BPM",
+        "subpath": "Y.Golden",
+        "value": "AO.BPMy.Golden(i)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3315"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Offset",
+        "family": "BPM",
+        "subpath": "Y.Offset",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3313"
+      },
+      {
+        "lhs_full": "AO.BPMx.Golden",
+        "family": "BPMx",
+        "subpath": "Golden",
+        "value": "zeros(size(AO.BPMx.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3292"
+      },
+      {
+        "lhs_full": "AO.BPMx.Golden",
+        "family": "BPMx",
+        "subpath": "Golden",
+        "value": "Golden(iFoundList,3)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3293"
+      },
+      {
+        "lhs_full": "AO.BPMx.Offset",
+        "family": "BPMx",
+        "subpath": "Offset",
+        "value": "zeros(size(AO.BPMx.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3270"
+      },
+      {
+        "lhs_full": "AO.BPMx.Offset",
+        "family": "BPMx",
+        "subpath": "Offset",
+        "value": "Offset(iFoundList,3)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3271"
+      },
+      {
+        "lhs_full": "AO.BPMy.Golden",
+        "family": "BPMy",
+        "subpath": "Golden",
+        "value": "zeros(size(AO.BPMy.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3302"
+      },
+      {
+        "lhs_full": "AO.BPMy.Golden",
+        "family": "BPMy",
+        "subpath": "Golden",
+        "value": "Golden(iFoundList,4)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3303"
+      },
+      {
+        "lhs_full": "AO.BPMy.Offset",
+        "family": "BPMy",
+        "subpath": "Offset",
+        "value": "zeros(size(AO.BPMy.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3280"
+      },
+      {
+        "lhs_full": "AO.BPMy.Offset",
+        "family": "BPMy",
+        "subpath": "Offset",
+        "value": "Offset(iFoundList,4)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3281"
+      },
+      {
+        "lhs_full": "AO.HCM.Setpoint.DeltaRespMat",
+        "family": "HCM",
+        "subpath": "Setpoint.DeltaRespMat",
+        "value": "physics2hw('HCM','Setpoint', .15e-3 / 3 / 1, AO.HCM.DeviceList)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:1121"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:387"
+      },
+      {
+        "lhs_full": "AO.VCM.Setpoint.DeltaRespMat",
+        "family": "VCM",
+        "subpath": "Setpoint.DeltaRespMat",
+        "value": "physics2hw('VCM','Setpoint', .15e-3 / 3 / 2, AO.VCM.DeviceList)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:1122"
+      }
+    ]
+  },
+  "8": {
+    "name": "1.5 GeV, Isochronous Sections",
+    "assignment_count": 14,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_isochronous_sections_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:411"
+      },
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_isochronous_sections_122bpms_2520tune'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:424"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:442"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:404"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:437"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Upper'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:445"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:405"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:438"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.5 GeV, Isochronous Sections'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:403"
+      },
+      {
+        "lhs_full": "AD.OpsData.HysteresisLoopUpperLattice",
+        "family": null,
+        "subpath": "OpsData.HysteresisLoopUpperLattice",
+        "value": "[MMLROOT, 'machine', filesep, 'ALS', filesep, 'StorageRingOpsData', filesep, 'HighTune', filesep, 'GoldenConfig_HighTune']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1107"
+      },
+      {
+        "lhs_full": "AO.HCM.Setpoint.DeltaRespMat",
+        "family": "HCM",
+        "subpath": "Setpoint.DeltaRespMat",
+        "value": "physics2hw('HCM','Setpoint', .15e-3 / 3 / 1, AO.HCM.DeviceList)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:1121"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.39 0.15 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:417"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:430"
+      },
+      {
+        "lhs_full": "AO.VCM.Setpoint.DeltaRespMat",
+        "family": "VCM",
+        "subpath": "Setpoint.DeltaRespMat",
+        "value": "physics2hw('VCM','Setpoint', .15e-3 / 3 / 2, AO.VCM.DeviceList)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:1122"
+      }
+    ]
+  },
+  "9": {
+    "name": "1.5 GeV, Inject at 1.353",
+    "assignment_count": 7,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:458"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:471"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.52322",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:451"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:474"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.353",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:452"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.5 GeV, Inject at 1.353'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:453"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:464"
+      }
+    ]
+  },
+  "10": {
+    "name": "1.9 GeV, Low Emittance Mode",
+    "assignment_count": 9,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nux16_124bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:490"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[1.0; 1.5]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:502"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:484"
+      },
+      {
+        "lhs_full": "AD.ErrorWarningLevel",
+        "family": null,
+        "subpath": "ErrorWarningLevel",
+        "value": "0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:517"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:505"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:485"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Low Emittance Mode'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:483"
+      },
+      {
+        "lhs_full": "AD.OpsData.HysteresisLoopLowerLattice",
+        "family": null,
+        "subpath": "OpsData.HysteresisLoopLowerLattice",
+        "value": "[MMLROOT, 'machine', filesep, AD.Machine, filesep, AD.SubMachine, 'OpsData', filesep, ModeName, filesep, 'CyclingConfig_LowEmittance']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:778"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:495"
+      }
+    ]
+  },
+  "99": {
+    "name": "1.9 GeV, High Tune Mode",
+    "assignment_count": 9,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms_nux_16_etax_0'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:575"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:587"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:569"
+      },
+      {
+        "lhs_full": "AD.ErrorWarningLevel",
+        "family": null,
+        "subpath": "ErrorWarningLevel",
+        "value": "0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:602"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:590"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:570"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, High Tune Mode'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:568"
+      },
+      {
+        "lhs_full": "AD.TuneDelay",
+        "family": null,
+        "subpath": "TuneDelay",
+        "value": "0.0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:592"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:580"
+      }
+    ]
+  },
+  "100": {
+    "name": "1.9 GeV, Christoph Mode",
+    "assignment_count": 8,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:722"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:735"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:716"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:738"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:717"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Christoph Mode'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:715"
+      },
+      {
+        "lhs_full": "AD.TuneDelay",
+        "family": null,
+        "subpath": "TuneDelay",
+        "value": "0.0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:740"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:727"
+      }
+    ]
+  },
+  "101": {
+    "name": "1.9 GeV, Model",
+    "assignment_count": 8,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms_splitdipole'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:616"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:630"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:607"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:633"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:608"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Model'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:606"
+      },
+      {
+        "lhs_full": "AD.TuneDelay",
+        "family": null,
+        "subpath": "TuneDelay",
+        "value": "0.0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:635"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:622"
+      }
+    ]
+  },
+  "888": {
+    "name": "Pseudo-Single Bunch (0.18,0.25)",
+    "assignment_count": 23,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nux16p18_nuyp25_124bpms.m'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:536"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.8; 1.6]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:548"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:522"
+      },
+      {
+        "lhs_full": "AD.ErrorWarningLevel",
+        "family": null,
+        "subpath": "ErrorWarningLevel",
+        "value": "0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:563"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:551"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:523"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'Pseudo-Single Bunch (0.18,0.25)'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:521"
+      },
+      {
+        "lhs_full": "AD.OpsData.LOCOFile",
+        "family": null,
+        "subpath": "OpsData.LOCOFile",
+        "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1269"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Golden",
+        "family": "BPM",
+        "subpath": "X.Golden",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3308"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Golden",
+        "family": "BPM",
+        "subpath": "X.Golden",
+        "value": "AO.BPMx.Golden(i)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3310"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Offset",
+        "family": "BPM",
+        "subpath": "X.Offset",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3309"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Golden",
+        "family": "BPM",
+        "subpath": "Y.Golden",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3312"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Golden",
+        "family": "BPM",
+        "subpath": "Y.Golden",
+        "value": "AO.BPMy.Golden(i)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3315"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Offset",
+        "family": "BPM",
+        "subpath": "Y.Offset",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3313"
+      },
+      {
+        "lhs_full": "AO.BPMx.Golden",
+        "family": "BPMx",
+        "subpath": "Golden",
+        "value": "zeros(size(AO.BPMx.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3292"
+      },
+      {
+        "lhs_full": "AO.BPMx.Golden",
+        "family": "BPMx",
+        "subpath": "Golden",
+        "value": "Golden(iFoundList,3)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3293"
+      },
+      {
+        "lhs_full": "AO.BPMx.Offset",
+        "family": "BPMx",
+        "subpath": "Offset",
+        "value": "zeros(size(AO.BPMx.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3270"
+      },
+      {
+        "lhs_full": "AO.BPMx.Offset",
+        "family": "BPMx",
+        "subpath": "Offset",
+        "value": "Offset(iFoundList,3)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3271"
+      },
+      {
+        "lhs_full": "AO.BPMy.Golden",
+        "family": "BPMy",
+        "subpath": "Golden",
+        "value": "zeros(size(AO.BPMy.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3302"
+      },
+      {
+        "lhs_full": "AO.BPMy.Golden",
+        "family": "BPMy",
+        "subpath": "Golden",
+        "value": "Golden(iFoundList,4)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3303"
+      },
+      {
+        "lhs_full": "AO.BPMy.Offset",
+        "family": "BPMy",
+        "subpath": "Offset",
+        "value": "zeros(size(AO.BPMy.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3280"
+      },
+      {
+        "lhs_full": "AO.BPMy.Offset",
+        "family": "BPMy",
+        "subpath": "Offset",
+        "value": "Offset(iFoundList,4)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3281"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.180 0.25 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:541"
+      }
+    ]
+  },
+  "999": {
+    "name": "1.9 GeV, Greg Mode",
+    "assignment_count": 25,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:648"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:666"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:642"
+      },
+      {
+        "lhs_full": "AD.ErrorWarningLevel",
+        "family": null,
+        "subpath": "ErrorWarningLevel",
+        "value": "0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:680"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:669"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:643"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Greg Mode'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:641"
+      },
+      {
+        "lhs_full": "AD.OpsData.LOCOFile",
+        "family": null,
+        "subpath": "OpsData.LOCOFile",
+        "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production_72SkewQuads_4Bends']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1236"
+      },
+      {
+        "lhs_full": "AD.OpsData.LOCOFile",
+        "family": null,
+        "subpath": "OpsData.LOCOFile",
+        "value": "[getfamilydata('Directory','OpsData'),'LOCO_Production']",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:1269"
+      },
+      {
+        "lhs_full": "AD.TuneDelay",
+        "family": null,
+        "subpath": "TuneDelay",
+        "value": "0.0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:671"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Golden",
+        "family": "BPM",
+        "subpath": "X.Golden",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3308"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Golden",
+        "family": "BPM",
+        "subpath": "X.Golden",
+        "value": "AO.BPMx.Golden(i)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3310"
+      },
+      {
+        "lhs_full": "AO.BPM.X.Offset",
+        "family": "BPM",
+        "subpath": "X.Offset",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3309"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Golden",
+        "family": "BPM",
+        "subpath": "Y.Golden",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3312"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Golden",
+        "family": "BPM",
+        "subpath": "Y.Golden",
+        "value": "AO.BPMy.Golden(i)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3315"
+      },
+      {
+        "lhs_full": "AO.BPM.Y.Offset",
+        "family": "BPM",
+        "subpath": "Y.Offset",
+        "value": "zeros(size(AO.BPM.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3313"
+      },
+      {
+        "lhs_full": "AO.BPMx.Golden",
+        "family": "BPMx",
+        "subpath": "Golden",
+        "value": "zeros(size(AO.BPMx.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3292"
+      },
+      {
+        "lhs_full": "AO.BPMx.Golden",
+        "family": "BPMx",
+        "subpath": "Golden",
+        "value": "Golden(iFoundList,3)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3293"
+      },
+      {
+        "lhs_full": "AO.BPMx.Offset",
+        "family": "BPMx",
+        "subpath": "Offset",
+        "value": "zeros(size(AO.BPMx.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3270"
+      },
+      {
+        "lhs_full": "AO.BPMx.Offset",
+        "family": "BPMx",
+        "subpath": "Offset",
+        "value": "Offset(iFoundList,3)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3271"
+      },
+      {
+        "lhs_full": "AO.BPMy.Golden",
+        "family": "BPMy",
+        "subpath": "Golden",
+        "value": "zeros(size(AO.BPMy.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3302"
+      },
+      {
+        "lhs_full": "AO.BPMy.Golden",
+        "family": "BPMy",
+        "subpath": "Golden",
+        "value": "Golden(iFoundList,4)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3303"
+      },
+      {
+        "lhs_full": "AO.BPMy.Offset",
+        "family": "BPMy",
+        "subpath": "Offset",
+        "value": "zeros(size(AO.BPMy.DeviceList,1),1)",
+        "rhs_kind": "ao_reference",
+        "source": "setoperationalmode.m:3280"
+      },
+      {
+        "lhs_full": "AO.BPMy.Offset",
+        "family": "BPMy",
+        "subpath": "Offset",
+        "value": "Offset(iFoundList,4)",
+        "rhs_kind": "function_call",
+        "source": "setoperationalmode.m:3281"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:658"
+      }
+    ]
+  },
+  "9999": {
+    "name": "1.9 GeV, Tom Mode",
+    "assignment_count": 8,
+    "assignments": [
+      {
+        "lhs_full": "AD.ATModel",
+        "family": null,
+        "subpath": "ATModel",
+        "value": "'alslat_loco_3sb_disp_nuy9_122bpms'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:691"
+      },
+      {
+        "lhs_full": "AD.Chromaticity.Golden",
+        "family": null,
+        "subpath": "Chromaticity.Golden",
+        "value": "[.4; 1]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:704"
+      },
+      {
+        "lhs_full": "AD.Energy",
+        "family": null,
+        "subpath": "Energy",
+        "value": "1.89086196873342",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:685"
+      },
+      {
+        "lhs_full": "AD.HysteresisBranch",
+        "family": null,
+        "subpath": "HysteresisBranch",
+        "value": "'Lower'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:707"
+      },
+      {
+        "lhs_full": "AD.InjectionEnergy",
+        "family": null,
+        "subpath": "InjectionEnergy",
+        "value": "1.522",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:686"
+      },
+      {
+        "lhs_full": "AD.OperationalMode",
+        "family": null,
+        "subpath": "OperationalMode",
+        "value": "'1.9 GeV, Tom Mode'",
+        "rhs_kind": "string_literal",
+        "source": "setoperationalmode.m:684"
+      },
+      {
+        "lhs_full": "AD.TuneDelay",
+        "family": null,
+        "subpath": "TuneDelay",
+        "value": "0.0",
+        "rhs_kind": "numeric_literal",
+        "source": "setoperationalmode.m:709"
+      },
+      {
+        "lhs_full": "AO.TUNE.Monitor.Golden",
+        "family": "TUNE",
+        "subpath": "Monitor.Golden",
+        "value": "[ 0.25 0.20 NaN]",
+        "rhs_kind": "matrix",
+        "source": "setoperationalmode.m:696"
+      }
+    ]
+  }
+}

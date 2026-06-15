@@ -1,0 +1,5916 @@
+{
+  " %Save": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SHD"
+    ],
+    "fields": [
+      {
+        "family": "SHD",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2034
+      }
+    ],
+    "fields_total": 1
+  },
+  "Archive": {
+    "family_count": 30,
+    "field_count": 194,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "BPMx",
+      "BPMy",
+      "BSC",
+      "DCCT",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "ID",
+      "INSIDESCRAPER",
+      "IonGauge",
+      "IonPump",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "RF",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSD",
+      "SQSF",
+      "THC",
+      "TOPSCRAPER",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "XGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 167
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 272
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 626
+      },
+      {
+        "family": "HCM",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 636
+      },
+      {
+        "family": "HCM",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 656
+      },
+      {
+        "family": "HCM",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 667
+      },
+      {
+        "family": "HCM",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 677
+      },
+      {
+        "family": "HCM",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 687
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 904
+      },
+      {
+        "family": "VCM",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 914
+      },
+      {
+        "family": "VCM",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 934
+      },
+      {
+        "family": "VCM",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 945
+      },
+      {
+        "family": "VCM",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 955
+      },
+      {
+        "family": "VCM",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 965
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1098
+      },
+      {
+        "family": "QF",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1120
+      },
+      {
+        "family": "QF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1130
+      },
+      {
+        "family": "QF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1141
+      },
+      {
+        "family": "QF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1151
+      },
+      {
+        "family": "QF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1161
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1192
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QD",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1250
+      },
+      {
+        "family": "QD",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1272
+      },
+      {
+        "family": "QD",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1282
+      },
+      {
+        "family": "QD",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1293
+      },
+      {
+        "family": "QD",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1303
+      },
+      {
+        "family": "QD",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1313
+      },
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      },
+      {
+        "family": "QFA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1364
+      },
+      {
+        "family": "QFA",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1374
+      },
+      {
+        "family": "QFA",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1404
+      },
+      {
+        "family": "QFA",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1415
+      },
+      {
+        "family": "QFA",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1425
+      },
+      {
+        "family": "QFA",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1435
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt1Control",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1445
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1457
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2Control",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1467
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1479
+      },
+      {
+        "family": "QDA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1511
+      },
+      {
+        "family": "QDA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1521
+      },
+      {
+        "family": "QDA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1531
+      },
+      {
+        "family": "QDA",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1541
+      }
+    ],
+    "fields_total": 194
+  },
+  "Archiver": {
+    "family_count": 1,
+    "field_count": 8,
+    "families": [
+      "SQSHF"
+    ],
+    "fields": [
+      {
+        "family": "SQSHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 47
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 56
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 68
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 76
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 78
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 81
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 83
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 85
+      }
+    ],
+    "fields_total": 8
+  },
+  "Avg": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "DCCT"
+    ],
+    "fields": [
+      {
+        "family": "DCCT",
+        "field_path": "Avg",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3942
+      }
+    ],
+    "fields_total": 1
+  },
+  "BEND": {
+    "family_count": 2,
+    "field_count": 7,
+    "families": [
+      "BEND",
+      "BSC"
+    ],
+    "fields": [
+      {
+        "family": "BEND",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2245
+      },
+      {
+        "family": "BEND",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2260
+      },
+      {
+        "family": "BEND",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2271
+      },
+      {
+        "family": "BEND",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2281
+      },
+      {
+        "family": "BSC",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2380
+      },
+      {
+        "family": "BSC",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2416
+      },
+      {
+        "family": "BSC",
+        "field_path": "Limit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2426
+      }
+    ],
+    "fields_total": 7
+  },
+  "BPM": {
+    "family_count": 4,
+    "field_count": 14,
+    "families": [
+      "BPM",
+      "BPMTest",
+      "BPMx",
+      "BPMy"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 115
+      },
+      {
+        "family": "BPMx",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 157
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 167
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 177
+      },
+      {
+        "family": "BPMy",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 256
+      },
+      {
+        "family": "BPMy",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 262
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 272
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 282
+      },
+      {
+        "family": "BPM",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 639
+      },
+      {
+        "family": "BPM",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 685
+      },
+      {
+        "family": "BPM",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 691
+      },
+      {
+        "family": "BPMTest",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 639
+      },
+      {
+        "family": "BPMTest",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 685
+      },
+      {
+        "family": "BPMTest",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 691
+      }
+    ],
+    "fields_total": 14
+  },
+  "BPMx": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "BPMx"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 115
+      }
+    ],
+    "fields_total": 1
+  },
+  "BPMy": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "BPMy"
+    ],
+    "fields": [
+      {
+        "family": "BPMy",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 256
+      }
+    ],
+    "fields_total": 1
+  },
+  "Beam Current": {
+    "family_count": 1,
+    "field_count": 6,
+    "families": [
+      "DCCT"
+    ],
+    "fields": [
+      {
+        "family": "DCCT",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3926
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3931
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Avg",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3942
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Fast",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3952
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Keithley",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3963
+      },
+      {
+        "family": "DCCT",
+        "field_path": "LowPass",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3974
+      }
+    ],
+    "fields_total": 6
+  },
+  "Boolean Control": {
+    "family_count": 20,
+    "field_count": 38,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "ID",
+      "INSIDESCRAPER",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSHF",
+      "TOPSCRAPER",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "HCM",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 656
+      },
+      {
+        "family": "HCM",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 677
+      },
+      {
+        "family": "VCM",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 934
+      },
+      {
+        "family": "VCM",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 955
+      },
+      {
+        "family": "QF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1130
+      },
+      {
+        "family": "QF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1151
+      },
+      {
+        "family": "QD",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1282
+      },
+      {
+        "family": "QD",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1303
+      },
+      {
+        "family": "QFA",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1404
+      },
+      {
+        "family": "QFA",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1425
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt1Control",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1445
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2Control",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1467
+      },
+      {
+        "family": "QDA",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1571
+      },
+      {
+        "family": "QDA",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1592
+      },
+      {
+        "family": "SF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1691
+      },
+      {
+        "family": "SF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1712
+      },
+      {
+        "family": "SD",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1802
+      },
+      {
+        "family": "SD",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1823
+      },
+      {
+        "family": "SHF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1931
+      },
+      {
+        "family": "SHF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1952
+      },
+      {
+        "family": "SHD",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2054
+      },
+      {
+        "family": "SHD",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2075
+      },
+      {
+        "family": "BEND",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2334
+      },
+      {
+        "family": "BEND",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2355
+      },
+      {
+        "family": "HCMCHICANE",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2597
+      },
+      {
+        "family": "VCMCHICANE",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2685
+      },
+      {
+        "family": "ID",
+        "field_path": "VelocityProfile",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2880
+      },
+      {
+        "family": "ID",
+        "field_path": "GapEnableControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2910
+      },
+      {
+        "family": "ID",
+        "field_path": "FFEnableControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2930
+      },
+      {
+        "family": "ID",
+        "field_path": "FFReadTable",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2950
+      },
+      {
+        "family": "ID",
+        "field_path": "AmpReset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3044
+      },
+      {
+        "family": "EPU",
+        "field_path": "AmpReset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3271
+      },
+      {
+        "family": "SQEPU",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3417
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3541
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3648
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3743
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 78
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 83
+      }
+    ],
+    "fields_total": 38
+  },
+  "Boolean Monitor": {
+    "family_count": 21,
+    "field_count": 52,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "BSC",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "ID",
+      "INSIDESCRAPER",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSHF",
+      "TOPSCRAPER",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "HCM",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 667
+      },
+      {
+        "family": "HCM",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 687
+      },
+      {
+        "family": "VCM",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 945
+      },
+      {
+        "family": "VCM",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 965
+      },
+      {
+        "family": "QF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1141
+      },
+      {
+        "family": "QF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1161
+      },
+      {
+        "family": "QD",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1293
+      },
+      {
+        "family": "QD",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1313
+      },
+      {
+        "family": "QFA",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1415
+      },
+      {
+        "family": "QFA",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1435
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1457
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1479
+      },
+      {
+        "family": "QDA",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1582
+      },
+      {
+        "family": "QDA",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1602
+      },
+      {
+        "family": "SF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1702
+      },
+      {
+        "family": "SF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1722
+      },
+      {
+        "family": "SD",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1813
+      },
+      {
+        "family": "SD",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1833
+      },
+      {
+        "family": "SHF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1942
+      },
+      {
+        "family": "SHF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1962
+      },
+      {
+        "family": "SHD",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2065
+      },
+      {
+        "family": "SHD",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2085
+      },
+      {
+        "family": "BEND",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2345
+      },
+      {
+        "family": "BEND",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2365
+      },
+      {
+        "family": "BSC",
+        "field_path": "Limit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2426
+      },
+      {
+        "family": "HCMCHICANE",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2608
+      },
+      {
+        "family": "VCMCHICANE",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2696
+      },
+      {
+        "family": "ID",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2890
+      },
+      {
+        "family": "ID",
+        "field_path": "GapEnable",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2920
+      },
+      {
+        "family": "ID",
+        "field_path": "FFEnable",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2940
+      },
+      {
+        "family": "ID",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2999
+      },
+      {
+        "family": "ID",
+        "field_path": "Amp",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3034
+      },
+      {
+        "family": "EPU",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3165
+      },
+      {
+        "family": "EPU",
+        "field_path": "MoveCount",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3195
+      },
+      {
+        "family": "EPU",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3243
+      },
+      {
+        "family": "EPU",
+        "field_path": "Amp",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3261
+      },
+      {
+        "family": "SQEPU",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3407
+      },
+      {
+        "family": "SQEPU",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3438
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3531
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3553
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3563
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3573
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3638
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3660
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3670
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3680
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3733
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3755
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3765
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3775
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 81
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 85
+      }
+    ],
+    "fields_total": 52
+  },
+  "Bottom": {
+    "family_count": 1,
+    "field_count": 8,
+    "families": [
+      "BOTTOMSCRAPER"
+    ],
+    "fields": [
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3585
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3604
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3615
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3638
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3648
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3660
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3670
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3680
+      }
+    ],
+    "fields_total": 8
+  },
+  "COR": {
+    "family_count": 2,
+    "field_count": 18,
+    "families": [
+      "HCM",
+      "VCM"
+    ],
+    "fields": [
+      {
+        "family": "HCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 425
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 524
+      },
+      {
+        "family": "HCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 602
+      },
+      {
+        "family": "VCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 699
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 802
+      },
+      {
+        "family": "VCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 880
+      }
+    ],
+    "fields_total": 18
+  },
+  "Caen": {
+    "family_count": 2,
+    "field_count": 6,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      }
+    ],
+    "fields_total": 6
+  },
+  "Cell Controller": {
+    "family_count": 2,
+    "field_count": 6,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      }
+    ],
+    "fields_total": 6
+  },
+  "Chromaticity Corrector": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "SD",
+      "SF"
+    ],
+    "fields": [
+      {
+        "family": "SF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1617
+      },
+      {
+        "family": "SD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1734
+      }
+    ],
+    "fields_total": 2
+  },
+  "DCCT": {
+    "family_count": 1,
+    "field_count": 6,
+    "families": [
+      "DCCT"
+    ],
+    "fields": [
+      {
+        "family": "DCCT",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3926
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3931
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Avg",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3942
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Fast",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3952
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Keithley",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3963
+      },
+      {
+        "family": "DCCT",
+        "field_path": "LowPass",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3974
+      }
+    ],
+    "fields_total": 6
+  },
+  "EPU": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "EPU"
+    ],
+    "fields": [
+      {
+        "family": "EPU",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3057
+      }
+    ],
+    "fields_total": 1
+  },
+  "Error": {
+    "family_count": 3,
+    "field_count": 3,
+    "families": [
+      "BPMx",
+      "BPMy",
+      "THC"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "XError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 177
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 282
+      },
+      {
+        "family": "THC",
+        "field_path": "Error",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4356
+      }
+    ],
+    "fields_total": 3
+  },
+  "FF": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SQEPU"
+    ],
+    "fields": [
+      {
+        "family": "SQEPU",
+        "field_path": "FF",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3347
+      }
+    ],
+    "fields_total": 1
+  },
+  "FFMultiplier": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SQEPU"
+    ],
+    "fields": [
+      {
+        "family": "SQEPU",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3357
+      }
+    ],
+    "fields_total": 1
+  },
+  "FIR": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      }
+    ],
+    "fields_total": 2
+  },
+  "FOFB": {
+    "family_count": 2,
+    "field_count": 12,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      }
+    ],
+    "fields_total": 12
+  },
+  "FastPS": {
+    "family_count": 2,
+    "field_count": 12,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      }
+    ],
+    "fields_total": 12
+  },
+  "GeV": {
+    "family_count": 1,
+    "field_count": 2,
+    "families": [
+      "GeV"
+    ],
+    "fields": [
+      {
+        "family": "GeV",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4460
+      },
+      {
+        "family": "GeV",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4470
+      }
+    ],
+    "fields_total": 2
+  },
+  "Golden": {
+    "family_count": 17,
+    "field_count": 17,
+    "families": [
+      "BEND",
+      "BPMx",
+      "BPMy",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQSHF",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "XGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 167
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 272
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QFA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1364
+      },
+      {
+        "family": "QDA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1531
+      },
+      {
+        "family": "SF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1646
+      },
+      {
+        "family": "SD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1759
+      },
+      {
+        "family": "SHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1900
+      },
+      {
+        "family": "SHD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2023
+      },
+      {
+        "family": "BEND",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2281
+      },
+      {
+        "family": "HCMCHICANE",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2567
+      },
+      {
+        "family": "VCMCHICANE",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2655
+      },
+      {
+        "family": "HCMCHICANEM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2744
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 68
+      }
+    ],
+    "fields_total": 17
+  },
+  "HBPM": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "BPMx"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 115
+      },
+      {
+        "family": "BPMx",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 157
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 167
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 177
+      }
+    ],
+    "fields_total": 4
+  },
+  "HCM": {
+    "family_count": 1,
+    "field_count": 9,
+    "families": [
+      "HCM"
+    ],
+    "fields": [
+      {
+        "family": "HCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 425
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 524
+      },
+      {
+        "family": "HCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 602
+      }
+    ],
+    "fields_total": 9
+  },
+  "HCMCHICANE": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "HCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "HCMCHICANE",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2532
+      }
+    ],
+    "fields_total": 1
+  },
+  "Horizontal": {
+    "family_count": 2,
+    "field_count": 7,
+    "families": [
+      "BPMx",
+      "HCM"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 115
+      },
+      {
+        "family": "BPMx",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 157
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 167
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 177
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      }
+    ],
+    "fields_total": 7
+  },
+  "ID": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "ID"
+    ],
+    "fields": [
+      {
+        "family": "ID",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2769
+      }
+    ],
+    "fields_total": 1
+  },
+  "Insertion Device": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "ID"
+    ],
+    "fields": [
+      {
+        "family": "ID",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2769
+      }
+    ],
+    "fields_total": 1
+  },
+  "IonGauge": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "IonGauge"
+    ],
+    "fields": [
+      {
+        "family": "IonGauge",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3990
+      }
+    ],
+    "fields_total": 1
+  },
+  "IonPump": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "IonPump"
+    ],
+    "fields": [
+      {
+        "family": "IonPump",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4064
+      }
+    ],
+    "fields_total": 1
+  },
+  "Keithley": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "DCCT"
+    ],
+    "fields": [
+      {
+        "family": "DCCT",
+        "field_path": "Keithley",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3963
+      }
+    ],
+    "fields_total": 1
+  },
+  "LowPass": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "DCCT"
+    ],
+    "fields": [
+      {
+        "family": "DCCT",
+        "field_path": "LowPass",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3974
+      }
+    ],
+    "fields_total": 1
+  },
+  "Magnet": {
+    "family_count": 21,
+    "field_count": 81,
+    "families": [
+      "BEND",
+      "BSC",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "HCMFOFB",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSD",
+      "SQSF",
+      "SQSHF",
+      "VCM",
+      "VCMCHICANE",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 425
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 524
+      },
+      {
+        "family": "HCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 602
+      },
+      {
+        "family": "VCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 699
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 802
+      },
+      {
+        "family": "VCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 880
+      },
+      {
+        "family": "QF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1021
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QF",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1086
+      },
+      {
+        "family": "QD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1173
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1192
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QD",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1238
+      },
+      {
+        "family": "QFA",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1326
+      },
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      },
+      {
+        "family": "QFA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1364
+      },
+      {
+        "family": "QDA",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1506
+      },
+      {
+        "family": "QDA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1511
+      },
+      {
+        "family": "QDA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1521
+      },
+      {
+        "family": "QDA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1531
+      },
+      {
+        "family": "SF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1617
+      },
+      {
+        "family": "SF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1622
+      },
+      {
+        "family": "SF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1634
+      },
+      {
+        "family": "SF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1646
+      },
+      {
+        "family": "SD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1734
+      },
+      {
+        "family": "SD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1739
+      },
+      {
+        "family": "SD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1749
+      },
+      {
+        "family": "SD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1759
+      },
+      {
+        "family": "SHF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1848
+      },
+      {
+        "family": "SHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1879
+      },
+      {
+        "family": "SHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1890
+      },
+      {
+        "family": "SHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1900
+      },
+      {
+        "family": "SHD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1974
+      },
+      {
+        "family": "SHD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2002
+      },
+      {
+        "family": "SHD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2023
+      },
+      {
+        "family": "SQSF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2140
+      },
+      {
+        "family": "SQSF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2149
+      },
+      {
+        "family": "SQSD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2210
+      },
+      {
+        "family": "SQSD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2219
+      },
+      {
+        "family": "BEND",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2245
+      },
+      {
+        "family": "BEND",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2260
+      },
+      {
+        "family": "BEND",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2271
+      },
+      {
+        "family": "BEND",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2281
+      },
+      {
+        "family": "BSC",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2416
+      }
+    ],
+    "fields_total": 81
+  },
+  "Measurement": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "TUNE"
+    ],
+    "fields": [
+      {
+        "family": "TUNE",
+        "field_path": "Measure",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3911
+      }
+    ],
+    "fields_total": 1
+  },
+  "Monitor": {
+    "family_count": 30,
+    "field_count": 40,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "BPMx",
+      "BPMy",
+      "BSC",
+      "DCCT",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "ID",
+      "INSIDESCRAPER",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "RF",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSD",
+      "SQSF",
+      "SQSHF",
+      "THC",
+      "TOPSCRAPER",
+      "TUNE",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 157
+      },
+      {
+        "family": "BPMy",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 262
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QDA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1511
+      },
+      {
+        "family": "SF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1622
+      },
+      {
+        "family": "SD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1739
+      },
+      {
+        "family": "SHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1879
+      },
+      {
+        "family": "SHD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2002
+      },
+      {
+        "family": "SQSF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2149
+      },
+      {
+        "family": "SQSD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2219
+      },
+      {
+        "family": "BEND",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2260
+      },
+      {
+        "family": "BSC",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2385
+      },
+      {
+        "family": "HCMCHICANE",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2543
+      },
+      {
+        "family": "VCMCHICANE",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2631
+      },
+      {
+        "family": "HCMCHICANEM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2718
+      },
+      {
+        "family": "ID",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2840
+      },
+      {
+        "family": "ID",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2860
+      },
+      {
+        "family": "ID",
+        "field_path": "FFTableHeader",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2974
+      },
+      {
+        "family": "ID",
+        "field_path": "MoveCount",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3024
+      },
+      {
+        "family": "EPU",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3095
+      },
+      {
+        "family": "EPU",
+        "field_path": "OffsetA",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3115
+      },
+      {
+        "family": "EPU",
+        "field_path": "OffsetB",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3135
+      },
+      {
+        "family": "EPU",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3175
+      },
+      {
+        "family": "EPU",
+        "field_path": "FFTableHeader",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3225
+      },
+      {
+        "family": "SQEPU",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3322
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3497
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3521
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3604
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3628
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3699
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3723
+      },
+      {
+        "family": "RF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3795
+      },
+      {
+        "family": "TUNE",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3901
+      },
+      {
+        "family": "DCCT",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3931
+      },
+      {
+        "family": "THC",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4326
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 47
+      }
+    ],
+    "fields_total": 40
+  },
+  "Motor Chicane": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "HCMCHICANEM"
+    ],
+    "fields": [
+      {
+        "family": "HCMCHICANEM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2712
+      }
+    ],
+    "fields_total": 1
+  },
+  "Offset": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      }
+    ],
+    "fields_total": 2
+  },
+  "PID": {
+    "family_count": 2,
+    "field_count": 4,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      }
+    ],
+    "fields_total": 4
+  },
+  "PlotFamily": {
+    "family_count": 31,
+    "field_count": 235,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "BPMx",
+      "BPMy",
+      "BSC",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "HCMFOFB",
+      "ID",
+      "INSIDESCRAPER",
+      "IonGauge",
+      "IonPump",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "RF",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSD",
+      "SQSF",
+      "SQSHF",
+      "TOPSCRAPER",
+      "VCM",
+      "VCMCHICANE",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 115
+      },
+      {
+        "family": "BPMy",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 256
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 524
+      },
+      {
+        "family": "HCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 602
+      },
+      {
+        "family": "HCM",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 626
+      },
+      {
+        "family": "HCM",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 636
+      },
+      {
+        "family": "HCM",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 646
+      },
+      {
+        "family": "HCM",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 656
+      },
+      {
+        "family": "HCM",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 667
+      },
+      {
+        "family": "HCM",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 677
+      },
+      {
+        "family": "HCM",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 687
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 802
+      },
+      {
+        "family": "VCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 880
+      },
+      {
+        "family": "VCM",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 904
+      },
+      {
+        "family": "VCM",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 914
+      },
+      {
+        "family": "VCM",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 924
+      },
+      {
+        "family": "VCM",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 934
+      },
+      {
+        "family": "VCM",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 945
+      },
+      {
+        "family": "VCM",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 955
+      },
+      {
+        "family": "VCM",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 965
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QF",
+        "field_path": "FF",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1063
+      },
+      {
+        "family": "QF",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1076
+      },
+      {
+        "family": "QF",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1086
+      },
+      {
+        "family": "QF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1098
+      },
+      {
+        "family": "QF",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1110
+      },
+      {
+        "family": "QF",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1120
+      },
+      {
+        "family": "QF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1130
+      },
+      {
+        "family": "QF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1141
+      },
+      {
+        "family": "QF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1151
+      },
+      {
+        "family": "QF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1161
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1192
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QD",
+        "field_path": "FF",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1215
+      },
+      {
+        "family": "QD",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1228
+      },
+      {
+        "family": "QD",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1238
+      },
+      {
+        "family": "QD",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1250
+      },
+      {
+        "family": "QD",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1262
+      },
+      {
+        "family": "QD",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1272
+      },
+      {
+        "family": "QD",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1282
+      },
+      {
+        "family": "QD",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1293
+      },
+      {
+        "family": "QD",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1303
+      },
+      {
+        "family": "QD",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1313
+      },
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      }
+    ],
+    "fields_total": 235
+  },
+  "Power Supply": {
+    "family_count": 2,
+    "field_count": 12,
+    "families": [
+      "HCMFOFB",
+      "VCMFOFB"
+    ],
+    "fields": [
+      {
+        "family": "HCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "HCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 206
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 258
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 271
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 286
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 297
+      },
+      {
+        "family": "VCMFOFB",
+        "field_path": "*",
+        "file": "machine/ALS/Common/buildmmlcaenfastps.m",
+        "line": 308
+      }
+    ],
+    "fields_total": 12
+  },
+  "Pressure": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "IonGauge",
+      "IonPump"
+    ],
+    "fields": [
+      {
+        "family": "IonGauge",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3990
+      },
+      {
+        "family": "IonPump",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4064
+      }
+    ],
+    "fields_total": 2
+  },
+  "QD": {
+    "family_count": 2,
+    "field_count": 6,
+    "families": [
+      "QD",
+      "QDA"
+    ],
+    "fields": [
+      {
+        "family": "QD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1173
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1192
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QD",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1238
+      },
+      {
+        "family": "QDA",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1506
+      }
+    ],
+    "fields_total": 6
+  },
+  "QDA": {
+    "family_count": 1,
+    "field_count": 3,
+    "families": [
+      "QDA"
+    ],
+    "fields": [
+      {
+        "family": "QDA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1511
+      },
+      {
+        "family": "QDA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1521
+      },
+      {
+        "family": "QDA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1531
+      }
+    ],
+    "fields_total": 3
+  },
+  "QF": {
+    "family_count": 2,
+    "field_count": 6,
+    "families": [
+      "QF",
+      "QFA"
+    ],
+    "fields": [
+      {
+        "family": "QF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1021
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QF",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1086
+      },
+      {
+        "family": "QFA",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1326
+      }
+    ],
+    "fields_total": 6
+  },
+  "QFA": {
+    "family_count": 1,
+    "field_count": 3,
+    "families": [
+      "QFA"
+    ],
+    "fields": [
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      },
+      {
+        "family": "QFA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1364
+      }
+    ],
+    "fields_total": 3
+  },
+  "QUAD": {
+    "family_count": 4,
+    "field_count": 18,
+    "families": [
+      "QD",
+      "QDA",
+      "QF",
+      "QFA"
+    ],
+    "fields": [
+      {
+        "family": "QF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1021
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QF",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1086
+      },
+      {
+        "family": "QD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1173
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1192
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QD",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1238
+      },
+      {
+        "family": "QFA",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1326
+      },
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      },
+      {
+        "family": "QFA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1364
+      },
+      {
+        "family": "QDA",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1506
+      },
+      {
+        "family": "QDA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1511
+      },
+      {
+        "family": "QDA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1521
+      },
+      {
+        "family": "QDA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1531
+      }
+    ],
+    "fields_total": 18
+  },
+  "RF": {
+    "family_count": 1,
+    "field_count": 5,
+    "families": [
+      "RF"
+    ],
+    "fields": [
+      {
+        "family": "RF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3790
+      },
+      {
+        "family": "RF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3795
+      },
+      {
+        "family": "RF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3807
+      },
+      {
+        "family": "RF",
+        "field_path": "CavityTemperature1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3824
+      },
+      {
+        "family": "RF",
+        "field_path": "CavityTemperature2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3844
+      }
+    ],
+    "fields_total": 5
+  },
+  "Ramprate": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SQSHF"
+    ],
+    "fields": [
+      {
+        "family": "SQSHF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 76
+      }
+    ],
+    "fields_total": 1
+  },
+  "Right": {
+    "family_count": 1,
+    "field_count": 9,
+    "families": [
+      "INSIDESCRAPER"
+    ],
+    "fields": [
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3692
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3699
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3710
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3723
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3733
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3743
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3755
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3765
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3775
+      }
+    ],
+    "fields_total": 9
+  },
+  "RunFlag": {
+    "family_count": 5,
+    "field_count": 5,
+    "families": [
+      "BOTTOMSCRAPER",
+      "EPU",
+      "ID",
+      "INSIDESCRAPER",
+      "TOPSCRAPER"
+    ],
+    "fields": [
+      {
+        "family": "ID",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2890
+      },
+      {
+        "family": "EPU",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3165
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3531
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3638
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3733
+      }
+    ],
+    "fields_total": 5
+  },
+  "SD": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "SD"
+    ],
+    "fields": [
+      {
+        "family": "SD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1734
+      },
+      {
+        "family": "SD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1739
+      },
+      {
+        "family": "SD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1749
+      },
+      {
+        "family": "SD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1759
+      }
+    ],
+    "fields_total": 4
+  },
+  "SEXT": {
+    "family_count": 4,
+    "field_count": 15,
+    "families": [
+      "SD",
+      "SF",
+      "SHD",
+      "SHF"
+    ],
+    "fields": [
+      {
+        "family": "SF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1617
+      },
+      {
+        "family": "SF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1622
+      },
+      {
+        "family": "SF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1634
+      },
+      {
+        "family": "SF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1646
+      },
+      {
+        "family": "SD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1734
+      },
+      {
+        "family": "SD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1739
+      },
+      {
+        "family": "SD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1749
+      },
+      {
+        "family": "SD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1759
+      },
+      {
+        "family": "SHF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1848
+      },
+      {
+        "family": "SHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1879
+      },
+      {
+        "family": "SHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1890
+      },
+      {
+        "family": "SHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1900
+      },
+      {
+        "family": "SHD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1974
+      },
+      {
+        "family": "SHD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2002
+      },
+      {
+        "family": "SHD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2023
+      }
+    ],
+    "fields_total": 15
+  },
+  "SF": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "SF"
+    ],
+    "fields": [
+      {
+        "family": "SF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1617
+      },
+      {
+        "family": "SF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1622
+      },
+      {
+        "family": "SF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1634
+      },
+      {
+        "family": "SF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1646
+      }
+    ],
+    "fields_total": 4
+  },
+  "SHD": {
+    "family_count": 1,
+    "field_count": 3,
+    "families": [
+      "SHD"
+    ],
+    "fields": [
+      {
+        "family": "SHD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1974
+      },
+      {
+        "family": "SHD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2002
+      },
+      {
+        "family": "SHD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2023
+      }
+    ],
+    "fields_total": 3
+  },
+  "SHF": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "SHF"
+    ],
+    "fields": [
+      {
+        "family": "SHF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1848
+      },
+      {
+        "family": "SHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1879
+      },
+      {
+        "family": "SHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1890
+      },
+      {
+        "family": "SHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1900
+      }
+    ],
+    "fields_total": 4
+  },
+  "SKEWQUAD": {
+    "family_count": 3,
+    "field_count": 5,
+    "families": [
+      "SQEPU",
+      "SQSD",
+      "SQSF"
+    ],
+    "fields": [
+      {
+        "family": "SQSF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2140
+      },
+      {
+        "family": "SQSF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2149
+      },
+      {
+        "family": "SQSD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2210
+      },
+      {
+        "family": "SQSD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2219
+      },
+      {
+        "family": "SQEPU",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3283
+      }
+    ],
+    "fields_total": 5
+  },
+  "SQSD": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SQSD"
+    ],
+    "fields": [
+      {
+        "family": "SQSD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2219
+      }
+    ],
+    "fields_total": 1
+  },
+  "SQSF": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SQSF"
+    ],
+    "fields": [
+      {
+        "family": "SQSF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2149
+      }
+    ],
+    "fields_total": 1
+  },
+  "SQSHF": {
+    "family_count": 1,
+    "field_count": 9,
+    "families": [
+      "SQSHF"
+    ],
+    "fields": [
+      {
+        "family": "SQSHF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 33
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 47
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 56
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 68
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 76
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 78
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 81
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 83
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 85
+      }
+    ],
+    "fields_total": 9
+  },
+  "Save": {
+    "family_count": 25,
+    "field_count": 99,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "BPMx",
+      "BPMy",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "ID",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "RF",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQEPU",
+      "SQSD",
+      "SQSF",
+      "SQSHF",
+      "TOPSCRAPER",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 157
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 167
+      },
+      {
+        "family": "BPMx",
+        "field_path": "XError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 177
+      },
+      {
+        "family": "BPMy",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 262
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 272
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 282
+      },
+      {
+        "family": "HCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 456
+      },
+      {
+        "family": "HCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 477
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 626
+      },
+      {
+        "family": "HCM",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 636
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 904
+      },
+      {
+        "family": "VCM",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 914
+      },
+      {
+        "family": "QF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1026
+      },
+      {
+        "family": "QF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1053
+      },
+      {
+        "family": "QF",
+        "field_path": "FF",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1063
+      },
+      {
+        "family": "QF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1098
+      },
+      {
+        "family": "QF",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1110
+      },
+      {
+        "family": "QF",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1120
+      },
+      {
+        "family": "QD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1178
+      },
+      {
+        "family": "QD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1205
+      },
+      {
+        "family": "QD",
+        "field_path": "FF",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1215
+      },
+      {
+        "family": "QD",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1250
+      },
+      {
+        "family": "QD",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1262
+      },
+      {
+        "family": "QD",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1272
+      },
+      {
+        "family": "QFA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1343
+      },
+      {
+        "family": "QFA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1364
+      },
+      {
+        "family": "QFA",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1374
+      },
+      {
+        "family": "QFA",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1384
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1457
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1479
+      },
+      {
+        "family": "QDA",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1511
+      },
+      {
+        "family": "QDA",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1531
+      },
+      {
+        "family": "QDA",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1541
+      },
+      {
+        "family": "QDA",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1551
+      },
+      {
+        "family": "QDA",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1561
+      },
+      {
+        "family": "SF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1622
+      },
+      {
+        "family": "SF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1646
+      },
+      {
+        "family": "SF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1659
+      },
+      {
+        "family": "SF",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1671
+      },
+      {
+        "family": "SF",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1681
+      },
+      {
+        "family": "SD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1739
+      },
+      {
+        "family": "SD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1759
+      },
+      {
+        "family": "SD",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1772
+      },
+      {
+        "family": "SD",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1782
+      },
+      {
+        "family": "SD",
+        "field_path": "DAC",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1792
+      },
+      {
+        "family": "SHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1879
+      },
+      {
+        "family": "SHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1900
+      },
+      {
+        "family": "SHD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2002
+      },
+      {
+        "family": "SHD",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2023
+      },
+      {
+        "family": "SQSF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2149
+      },
+      {
+        "family": "SQSD",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2219
+      },
+      {
+        "family": "BEND",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2260
+      }
+    ],
+    "fields_total": 99
+  },
+  "Save/Restore": {
+    "family_count": 18,
+    "field_count": 19,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "HCM",
+      "HCMCHICANE",
+      "HCMCHICANEM",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "SD",
+      "SF",
+      "SHD",
+      "SHF",
+      "SQSD",
+      "SQSF",
+      "SQSHF",
+      "TOPSCRAPER",
+      "VCM"
+    ],
+    "fields": [
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1192
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      },
+      {
+        "family": "QDA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1521
+      },
+      {
+        "family": "SF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1634
+      },
+      {
+        "family": "SD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1749
+      },
+      {
+        "family": "SHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1890
+      },
+      {
+        "family": "SHD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2013
+      },
+      {
+        "family": "SQSF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2156
+      },
+      {
+        "family": "SQSD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2226
+      },
+      {
+        "family": "BEND",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2271
+      },
+      {
+        "family": "HCMCHICANE",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2555
+      },
+      {
+        "family": "HCMCHICANEM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2731
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3508
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3615
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 56
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 68
+      }
+    ],
+    "fields_total": 19
+  },
+  "Scraper": {
+    "family_count": 3,
+    "field_count": 27,
+    "families": [
+      "BOTTOMSCRAPER",
+      "INSIDESCRAPER",
+      "TOPSCRAPER"
+    ],
+    "fields": [
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3475
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3497
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3508
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3521
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3531
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3541
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3553
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3563
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3573
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3585
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3604
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3615
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3628
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3638
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3648
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3660
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3670
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3680
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3692
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3699
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3710
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3723
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3733
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3743
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3755
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3765
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3775
+      }
+    ],
+    "fields_total": 27
+  },
+  "Setpoint": {
+    "family_count": 23,
+    "field_count": 35,
+    "families": [
+      "BEND",
+      "BOTTOMSCRAPER",
+      "BPMx",
+      "BPMy",
+      "EPU",
+      "HCM",
+      "HCMCHICANE",
+      "ID",
+      "INSIDESCRAPER",
+      "QD",
+      "QDA",
+      "QF",
+      "QFA",
+      "RF",
+      "SD",
+      "SF",
+      "SHF",
+      "SQEPU",
+      "SQSHF",
+      "THC",
+      "TOPSCRAPER",
+      "VCM",
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 222
+      },
+      {
+        "family": "BPMx",
+        "field_path": "NumberOfAverages",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 244
+      },
+      {
+        "family": "BPMy",
+        "field_path": "TimeConstant",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 325
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "HCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 487
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 498
+      },
+      {
+        "family": "HCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 511
+      },
+      {
+        "family": "HCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 524
+      },
+      {
+        "family": "HCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 602
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 802
+      },
+      {
+        "family": "VCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 880
+      },
+      {
+        "family": "QF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1040
+      },
+      {
+        "family": "QF",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1086
+      },
+      {
+        "family": "QD",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1238
+      },
+      {
+        "family": "QFA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1354
+      },
+      {
+        "family": "QDA",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1521
+      },
+      {
+        "family": "SF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1634
+      },
+      {
+        "family": "SD",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1749
+      },
+      {
+        "family": "SHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1890
+      },
+      {
+        "family": "BEND",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2271
+      },
+      {
+        "family": "HCMCHICANE",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2555
+      },
+      {
+        "family": "VCMCHICANE",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2643
+      },
+      {
+        "family": "ID",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2850
+      },
+      {
+        "family": "EPU",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3105
+      },
+      {
+        "family": "SQEPU",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3335
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3508
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3615
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3710
+      },
+      {
+        "family": "RF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3807
+      },
+      {
+        "family": "THC",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4340
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 56
+      }
+    ],
+    "fields_total": 35
+  },
+  "Shunt": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "QFA"
+    ],
+    "fields": [
+      {
+        "family": "QFA",
+        "field_path": "Shunt1Control",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1445
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1457
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2Control",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1467
+      },
+      {
+        "family": "QFA",
+        "field_path": "Shunt2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1479
+      }
+    ],
+    "fields_total": 4
+  },
+  "SkewQuad": {
+    "family_count": 1,
+    "field_count": 9,
+    "families": [
+      "SQSHF"
+    ],
+    "fields": [
+      {
+        "family": "SQSHF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 33
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 47
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 56
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 68
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "RampRate",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 76
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "OnControl",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 78
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "On",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 81
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Reset",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 83
+      },
+      {
+        "family": "SQSHF",
+        "field_path": "Ready",
+        "file": "machine/ALS/StorageRing/buildmml_sextupole_harmonic.m",
+        "line": 85
+      }
+    ],
+    "fields_total": 9
+  },
+  "Sum": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "SQEPU"
+    ],
+    "fields": [
+      {
+        "family": "SQEPU",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3367
+      }
+    ],
+    "fields_total": 1
+  },
+  "THC": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "THC"
+    ],
+    "fields": [
+      {
+        "family": "THC",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4321
+      },
+      {
+        "family": "THC",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4326
+      },
+      {
+        "family": "THC",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4340
+      },
+      {
+        "family": "THC",
+        "field_path": "Error",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 4356
+      }
+    ],
+    "fields_total": 4
+  },
+  "TUNE": {
+    "family_count": 1,
+    "field_count": 3,
+    "families": [
+      "TUNE"
+    ],
+    "fields": [
+      {
+        "family": "TUNE",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3896
+      },
+      {
+        "family": "TUNE",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3901
+      },
+      {
+        "family": "TUNE",
+        "field_path": "Measure",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3911
+      }
+    ],
+    "fields_total": 3
+  },
+  "Top": {
+    "family_count": 2,
+    "field_count": 10,
+    "families": [
+      "BOTTOMSCRAPER",
+      "TOPSCRAPER"
+    ],
+    "fields": [
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3475
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3497
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3508
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3521
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "RunFlag",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3531
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "HomeControl",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3541
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Home",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3553
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "PositiveLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3563
+      },
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "NegativeLimit",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3573
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3628
+      }
+    ],
+    "fields_total": 10
+  },
+  "Tune Corrector": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "QD",
+      "QF"
+    ],
+    "fields": [
+      {
+        "family": "QF",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1021
+      },
+      {
+        "family": "QD",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 1173
+      }
+    ],
+    "fields_total": 2
+  },
+  "VBPM": {
+    "family_count": 1,
+    "field_count": 4,
+    "families": [
+      "BPMy"
+    ],
+    "fields": [
+      {
+        "family": "BPMy",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 256
+      },
+      {
+        "family": "BPMy",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 262
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 272
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 282
+      }
+    ],
+    "fields_total": 4
+  },
+  "VCM": {
+    "family_count": 1,
+    "field_count": 9,
+    "families": [
+      "VCM"
+    ],
+    "fields": [
+      {
+        "family": "VCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 699
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      },
+      {
+        "family": "VCM",
+        "field_path": "Trim",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 764
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF1",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 775
+      },
+      {
+        "family": "VCM",
+        "field_path": "FF2",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 788
+      },
+      {
+        "family": "VCM",
+        "field_path": "FFMultiplier",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 802
+      },
+      {
+        "family": "VCM",
+        "field_path": "Sum",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 880
+      }
+    ],
+    "fields_total": 9
+  },
+  "VCMCHICANE": {
+    "family_count": 1,
+    "field_count": 1,
+    "families": [
+      "VCMCHICANE"
+    ],
+    "fields": [
+      {
+        "family": "VCMCHICANE",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 2621
+      }
+    ],
+    "fields_total": 1
+  },
+  "Velocity": {
+    "family_count": 3,
+    "field_count": 3,
+    "families": [
+      "BOTTOMSCRAPER",
+      "INSIDESCRAPER",
+      "TOPSCRAPER"
+    ],
+    "fields": [
+      {
+        "family": "TOPSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3521
+      },
+      {
+        "family": "BOTTOMSCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3628
+      },
+      {
+        "family": "INSIDESCRAPER",
+        "field_path": "Velocity",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 3723
+      }
+    ],
+    "fields_total": 3
+  },
+  "Vertical": {
+    "family_count": 2,
+    "field_count": 8,
+    "families": [
+      "BPMy",
+      "VCM"
+    ],
+    "fields": [
+      {
+        "family": "BPMy",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 256
+      },
+      {
+        "family": "BPMy",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 262
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 272
+      },
+      {
+        "family": "BPMy",
+        "field_path": "YError",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 282
+      },
+      {
+        "family": "VCM",
+        "field_path": "",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 699
+      },
+      {
+        "family": "VCM",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 733
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      },
+      {
+        "family": "VCM",
+        "field_path": "SetpointGolden",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 754
+      }
+    ],
+    "fields_total": 8
+  },
+  "XGoldenFOFB": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "BPM",
+      "BPMTest"
+    ],
+    "fields": [
+      {
+        "family": "BPM",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 685
+      },
+      {
+        "family": "BPMTest",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 685
+      }
+    ],
+    "fields_total": 2
+  },
+  "YGoldenFOFB": {
+    "family_count": 2,
+    "field_count": 2,
+    "families": [
+      "BPM",
+      "BPMTest"
+    ],
+    "fields": [
+      {
+        "family": "BPM",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 691
+      },
+      {
+        "family": "BPMTest",
+        "field_path": "XGoldenSetpoint",
+        "file": "machine/ALS/Common/buildmmlbpmfamily.m",
+        "line": 691
+      }
+    ],
+    "fields_total": 2
+  },
+  "measbpmresp": {
+    "family_count": 4,
+    "field_count": 4,
+    "families": [
+      "BPMx",
+      "BPMy",
+      "HCM",
+      "VCM"
+    ],
+    "fields": [
+      {
+        "family": "BPMx",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 157
+      },
+      {
+        "family": "BPMy",
+        "field_path": "Monitor",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 262
+      },
+      {
+        "family": "HCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 466
+      },
+      {
+        "family": "VCM",
+        "field_path": "Setpoint",
+        "file": "machine/ALS/StorageRing/alsinit.m",
+        "line": 743
+      }
+    ],
+    "fields_total": 4
+  }
+}

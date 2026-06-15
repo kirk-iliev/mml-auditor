@@ -1,0 +1,2617 @@
+{
+  "BEND": {
+    "family_level_groups": [
+      "BEND",
+      "Magnet"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "BEND",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "BEND",
+        "Magnet",
+        "PlotFamily",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "BEND",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "Save"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "BEND",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Save/Restore",
+      "Setpoint"
+    ],
+    "device_count": 36,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 36,
+        "source": "alsinit.m:2247",
+        "via": "literal"
+      }
+    ]
+  },
+  "BOTTOMSCRAPER": {
+    "family_level_groups": [
+      "Bottom",
+      "Scraper"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Bottom",
+        "Monitor",
+        "PlotFamily",
+        "Save",
+        "Scraper"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Bottom",
+        "PlotFamily",
+        "Save/Restore",
+        "Scraper",
+        "Setpoint"
+      ],
+      "Velocity": [
+        "Monitor",
+        "PlotFamily",
+        "Scraper",
+        "Top",
+        "Velocity"
+      ],
+      "RunFlag": [
+        "Boolean Monitor",
+        "Bottom",
+        "PlotFamily",
+        "RunFlag",
+        "Scraper"
+      ],
+      "HomeControl": [
+        "Archive",
+        "Boolean Control",
+        "Bottom",
+        "PlotFamily",
+        "Scraper"
+      ],
+      "Home": [
+        "Archive",
+        "Boolean Monitor",
+        "Bottom",
+        "PlotFamily",
+        "Scraper"
+      ],
+      "PositiveLimit": [
+        "Boolean Monitor",
+        "Bottom",
+        "PlotFamily",
+        "Scraper"
+      ],
+      "NegativeLimit": [
+        "Boolean Monitor",
+        "Bottom",
+        "PlotFamily",
+        "Scraper"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Bottom",
+      "Monitor",
+      "PlotFamily",
+      "RunFlag",
+      "Save",
+      "Save/Restore",
+      "Scraper",
+      "Setpoint",
+      "Top",
+      "Velocity"
+    ],
+    "device_count": 3,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 3,
+        "source": "alsinit.m:3587",
+        "via": "literal"
+      }
+    ]
+  },
+  "BPM": {
+    "family_level_groups": [
+      "BPM"
+    ],
+    "field_level_groups": {
+      "XGoldenSetpoint": [
+        "BPM",
+        "XGoldenFOFB",
+        "YGoldenFOFB"
+      ]
+    },
+    "all_groups_touched": [
+      "BPM",
+      "XGoldenFOFB",
+      "YGoldenFOFB"
+    ],
+    "device_count": null,
+    "device_count_via": "",
+    "device_sources": []
+  },
+  "BPMTest": {
+    "family_level_groups": [
+      "BPM"
+    ],
+    "field_level_groups": {
+      "XGoldenSetpoint": [
+        "BPM",
+        "XGoldenFOFB",
+        "YGoldenFOFB"
+      ]
+    },
+    "all_groups_touched": [
+      "BPM",
+      "XGoldenFOFB",
+      "YGoldenFOFB"
+    ],
+    "device_count": null,
+    "device_count_via": "",
+    "device_sources": []
+  },
+  "BPMx": {
+    "family_level_groups": [
+      "BPM",
+      "BPMx",
+      "HBPM",
+      "Horizontal",
+      "PlotFamily"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "BPM",
+        "HBPM",
+        "Horizontal",
+        "Monitor",
+        "Save",
+        "measbpmresp"
+      ],
+      "XGolden": [
+        "Archive",
+        "BPM",
+        "Golden",
+        "HBPM",
+        "Horizontal",
+        "Save"
+      ],
+      "XError": [
+        "BPM",
+        "Error",
+        "HBPM",
+        "Horizontal",
+        "Save"
+      ],
+      "TimeConstant": [
+        "Setpoint"
+      ],
+      "NumberOfAverages": [
+        "Setpoint"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "BPM",
+      "BPMx",
+      "Error",
+      "Golden",
+      "HBPM",
+      "Horizontal",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Setpoint",
+      "measbpmresp"
+    ],
+    "device_count": 123,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 123,
+        "source": "alsinit.m:116",
+        "via": "literal"
+      }
+    ]
+  },
+  "BPMy": {
+    "family_level_groups": [
+      "BPM",
+      "BPMy",
+      "PlotFamily",
+      "VBPM",
+      "Vertical"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "BPM",
+        "Monitor",
+        "Save",
+        "VBPM",
+        "Vertical",
+        "measbpmresp"
+      ],
+      "YGolden": [
+        "Archive",
+        "BPM",
+        "Golden",
+        "Save",
+        "VBPM",
+        "Vertical"
+      ],
+      "YError": [
+        "BPM",
+        "Error",
+        "Save",
+        "VBPM",
+        "Vertical"
+      ],
+      "TimeConstant": [
+        "Setpoint"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "BPM",
+      "BPMy",
+      "Error",
+      "Golden",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Setpoint",
+      "VBPM",
+      "Vertical",
+      "measbpmresp"
+    ],
+    "device_count": null,
+    "device_count_via": "",
+    "device_sources": []
+  },
+  "BSC": {
+    "family_level_groups": [
+      "BEND"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily"
+      ],
+      "RampRate": [
+        "Archive",
+        "BEND",
+        "Magnet",
+        "PlotFamily"
+      ],
+      "Limit": [
+        "BEND",
+        "Boolean Monitor",
+        "Magnet",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "BEND",
+      "Boolean Monitor",
+      "Magnet",
+      "Monitor",
+      "PlotFamily"
+    ],
+    "device_count": 3,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 3,
+        "source": "alsinit.m:2381",
+        "via": "literal"
+      }
+    ]
+  },
+  "DCCT": {
+    "family_level_groups": [
+      "Beam Current",
+      "DCCT"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Beam Current",
+        "DCCT",
+        "Monitor"
+      ],
+      "Avg": [
+        "Archive",
+        "Avg",
+        "Beam Current",
+        "DCCT"
+      ],
+      "Fast": [
+        "Beam Current",
+        "DCCT"
+      ],
+      "Keithley": [
+        "Beam Current",
+        "DCCT",
+        "Keithley"
+      ],
+      "LowPass": [
+        "Archive",
+        "Beam Current",
+        "DCCT",
+        "LowPass"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Avg",
+      "Beam Current",
+      "DCCT",
+      "Keithley",
+      "LowPass",
+      "Monitor"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:3928",
+        "via": "literal"
+      }
+    ]
+  },
+  "EPU": {
+    "family_level_groups": [
+      "EPU"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save",
+        "Setpoint"
+      ],
+      "OffsetA": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "OffsetAControl": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OffsetB": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "OffsetBControl": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "ZMode": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "RunFlag": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "RunFlag"
+      ],
+      "Velocity": [
+        "Monitor",
+        "PlotFamily"
+      ],
+      "VelocityControl": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "MoveCount": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "UserGap": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "FFTableHeader": [
+        "Archive",
+        "Monitor",
+        "PlotFamily"
+      ],
+      "Home": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Amp": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "AmpReset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "EPU",
+      "Monitor",
+      "PlotFamily",
+      "RunFlag",
+      "Save",
+      "Setpoint"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:3058",
+        "via": "literal"
+      }
+    ]
+  },
+  "GeV": {
+    "family_level_groups": [],
+    "field_level_groups": {
+      "Monitor": [
+        "GeV"
+      ],
+      "Setpoint": [
+        "GeV"
+      ]
+    },
+    "all_groups_touched": [
+      "GeV"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:4457",
+        "via": "literal"
+      }
+    ]
+  },
+  "HCM": {
+    "family_level_groups": [
+      "COR",
+      "HCM",
+      "Magnet"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "COR",
+        "HCM",
+        "Horizontal",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "COR",
+        "HCM",
+        "Horizontal",
+        "Magnet",
+        "PlotFamily",
+        "Save/Restore",
+        "Setpoint",
+        "measbpmresp"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "COR",
+        "Golden",
+        "HCM",
+        "Horizontal",
+        "Magnet",
+        "PlotFamily",
+        "Save"
+      ],
+      "Trim": [
+        "Archive",
+        "COR",
+        "HCM",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint"
+      ],
+      "FF1": [
+        "Archive",
+        "COR",
+        "HCM",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint"
+      ],
+      "FF2": [
+        "Archive",
+        "COR",
+        "HCM",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint"
+      ],
+      "FFMultiplier": [
+        "COR",
+        "HCM",
+        "Magnet",
+        "PlotFamily",
+        "Setpoint"
+      ],
+      "Sum": [
+        "COR",
+        "HCM",
+        "Magnet",
+        "PlotFamily",
+        "Setpoint"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "COR",
+      "Golden",
+      "HCM",
+      "Horizontal",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Save/Restore",
+      "Setpoint",
+      "measbpmresp"
+    ],
+    "device_count": 96,
+    "device_count_via": "resolved via HCMlist = zeros(...)",
+    "device_sources": [
+      {
+        "count": 96,
+        "source": "alsinit.m:426",
+        "via": "resolved via HCMlist = zeros(...)"
+      }
+    ]
+  },
+  "HCMCHICANE": {
+    "family_level_groups": [
+      "HCMCHICANE",
+      "Magnet"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "PlotFamily",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "HCMCHICANE",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Save/Restore",
+      "Setpoint"
+    ],
+    "device_count": 3,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 3,
+        "source": "alsinit.m:2533",
+        "via": "literal"
+      }
+    ]
+  },
+  "HCMCHICANEM": {
+    "family_level_groups": [
+      "Magnet",
+      "Motor Chicane"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save/Restore"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "PlotFamily",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "Motor Chicane",
+      "PlotFamily",
+      "Save",
+      "Save/Restore"
+    ],
+    "device_count": 8,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 8,
+        "source": "alsinit.m:2713",
+        "via": "literal"
+      }
+    ]
+  },
+  "HCMFOFB": {
+    "family_level_groups": [
+      "Caen",
+      "FOFB",
+      "FastPS",
+      "Magnet",
+      "Power Supply"
+    ],
+    "field_level_groups": {
+      "*": [
+        "Caen",
+        "Cell Controller",
+        "FIR",
+        "FOFB",
+        "FastPS",
+        "Offset",
+        "PID",
+        "PlotFamily",
+        "Power Supply"
+      ]
+    },
+    "all_groups_touched": [
+      "Caen",
+      "Cell Controller",
+      "FIR",
+      "FOFB",
+      "FastPS",
+      "Magnet",
+      "Offset",
+      "PID",
+      "PlotFamily",
+      "Power Supply"
+    ],
+    "device_count": null,
+    "device_count_via": "",
+    "device_sources": []
+  },
+  "ID": {
+    "family_level_groups": [
+      "ID",
+      "Insertion Device"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save",
+        "Setpoint"
+      ],
+      "Velocity": [
+        "Monitor",
+        "PlotFamily"
+      ],
+      "VelocityControl": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "VelocityProfile": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "RunFlag": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "RunFlag"
+      ],
+      "UserGap": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "GapEnableControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "GapEnable": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "FFEnableControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "FFEnable": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "FFReadTable": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "FFTableHeader": [
+        "Archive",
+        "Monitor",
+        "PlotFamily"
+      ],
+      "Home": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "MoveCount": [
+        "Archive",
+        "Monitor",
+        "PlotFamily"
+      ],
+      "Amp": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "AmpReset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "ID",
+      "Insertion Device",
+      "Monitor",
+      "PlotFamily",
+      "RunFlag",
+      "Save",
+      "Setpoint"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:2770",
+        "via": "literal"
+      }
+    ]
+  },
+  "INSIDESCRAPER": {
+    "family_level_groups": [
+      "Right",
+      "Scraper"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Right",
+        "Scraper"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Right",
+        "Scraper",
+        "Setpoint"
+      ],
+      "Velocity": [
+        "Monitor",
+        "PlotFamily",
+        "Right",
+        "Scraper",
+        "Velocity"
+      ],
+      "RunFlag": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "Right",
+        "RunFlag",
+        "Scraper"
+      ],
+      "HomeControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily",
+        "Right",
+        "Scraper"
+      ],
+      "Home": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily",
+        "Right",
+        "Scraper"
+      ],
+      "PositiveLimit": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "Right",
+        "Scraper"
+      ],
+      "NegativeLimit": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "Right",
+        "Scraper"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Monitor",
+      "PlotFamily",
+      "Right",
+      "RunFlag",
+      "Scraper",
+      "Setpoint",
+      "Velocity"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:3693",
+        "via": "literal"
+      }
+    ]
+  },
+  "IonGauge": {
+    "family_level_groups": [
+      "IonGauge",
+      "Pressure"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "IonGauge",
+      "PlotFamily",
+      "Pressure"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:3991",
+        "via": "literal"
+      }
+    ]
+  },
+  "IonPump": {
+    "family_level_groups": [
+      "IonPump",
+      "PlotFamily",
+      "Pressure"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "PlotFamily"
+      ],
+      "Torr": [
+        "Archive",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "IonPump",
+      "PlotFamily",
+      "Pressure"
+    ],
+    "device_count": 0,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 0,
+        "source": "alsinit.m:4065",
+        "via": "literal"
+      },
+      {
+        "count": 1,
+        "source": "alsinit.m:4081",
+        "via": "literal"
+      },
+      {
+        "count": 1,
+        "source": "alsinit.m:4105",
+        "via": "literal"
+      }
+    ]
+  },
+  "QD": {
+    "family_level_groups": [
+      "Magnet",
+      "QD",
+      "QUAD",
+      "Tune Corrector"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "QD",
+        "QUAD",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "QD",
+        "QUAD",
+        "Save/Restore"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "QD",
+        "QUAD",
+        "Save"
+      ],
+      "FF": [
+        "PlotFamily",
+        "Save"
+      ],
+      "FFMultiplier": [
+        "PlotFamily"
+      ],
+      "Sum": [
+        "Magnet",
+        "PlotFamily",
+        "QD",
+        "QUAD",
+        "Setpoint"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "QD",
+      "QUAD",
+      "Save",
+      "Save/Restore",
+      "Setpoint",
+      "Tune Corrector"
+    ],
+    "device_count": 24,
+    "device_count_via": "resolved via TwoPerSectorList = zeros(...)",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1174",
+        "via": "resolved via TwoPerSectorList = zeros(...)"
+      }
+    ]
+  },
+  "QDA": {
+    "family_level_groups": [
+      "Magnet",
+      "QD",
+      "QUAD"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "QDA",
+        "QUAD",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "QDA",
+        "QUAD",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "QDA",
+        "QUAD",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "QD",
+      "QDA",
+      "QUAD",
+      "Save",
+      "Save/Restore",
+      "Setpoint"
+    ],
+    "device_count": 6,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 6,
+        "source": "alsinit.m:1507",
+        "via": "literal"
+      }
+    ]
+  },
+  "QF": {
+    "family_level_groups": [
+      "Magnet",
+      "QF",
+      "QUAD",
+      "Tune Corrector"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "QF",
+        "QUAD",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "QF",
+        "QUAD",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "QF",
+        "QUAD",
+        "Save"
+      ],
+      "FF": [
+        "PlotFamily",
+        "Save"
+      ],
+      "FFMultiplier": [
+        "PlotFamily"
+      ],
+      "Sum": [
+        "Magnet",
+        "PlotFamily",
+        "QF",
+        "QUAD",
+        "Setpoint"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "QF",
+      "QUAD",
+      "Save",
+      "Save/Restore",
+      "Setpoint",
+      "Tune Corrector"
+    ],
+    "device_count": 24,
+    "device_count_via": "resolved via TwoPerSectorList = zeros(...)",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1022",
+        "via": "resolved via TwoPerSectorList = zeros(...)"
+      }
+    ]
+  },
+  "QFA": {
+    "family_level_groups": [
+      "Magnet",
+      "QF",
+      "QUAD"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "QFA",
+        "QUAD",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "QFA",
+        "QUAD",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "QFA",
+        "QUAD",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Shunt1Control": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily",
+        "Shunt"
+      ],
+      "Shunt1": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily",
+        "Save",
+        "Shunt"
+      ],
+      "Shunt2Control": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily",
+        "Shunt"
+      ],
+      "Shunt2": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily",
+        "Save",
+        "Shunt"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "QF",
+      "QFA",
+      "QUAD",
+      "Save",
+      "Save/Restore",
+      "Setpoint",
+      "Shunt"
+    ],
+    "device_count": 24,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1327",
+        "via": "literal"
+      }
+    ]
+  },
+  "RF": {
+    "family_level_groups": [
+      "RF"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "RF",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "RF",
+        "Save",
+        "Setpoint"
+      ],
+      "CavityTemperature1": [
+        "Archive",
+        "RF",
+        "Save"
+      ],
+      "CavityTemperature2": [
+        "Archive",
+        "RF",
+        "Save"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Monitor",
+      "PlotFamily",
+      "RF",
+      "Save",
+      "Setpoint"
+    ],
+    "device_count": 1,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 1,
+        "source": "alsinit.m:3792",
+        "via": "literal"
+      }
+    ]
+  },
+  "SD": {
+    "family_level_groups": [
+      "Chromaticity Corrector",
+      "Magnet",
+      "SD",
+      "SEXT"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SD",
+        "SEXT",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "SD",
+        "SEXT",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "SD",
+        "SEXT",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Chromaticity Corrector",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SD",
+      "SEXT",
+      "Save",
+      "Save/Restore",
+      "Setpoint"
+    ],
+    "device_count": 24,
+    "device_count_via": "resolved via TwoPerSectorList = zeros(...)",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1735",
+        "via": "resolved via TwoPerSectorList = zeros(...)"
+      }
+    ]
+  },
+  "SF": {
+    "family_level_groups": [
+      "Chromaticity Corrector",
+      "Magnet",
+      "SEXT",
+      "SF"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SEXT",
+        "SF",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "SEXT",
+        "SF",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "SEXT",
+        "SF",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Chromaticity Corrector",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SEXT",
+      "SF",
+      "Save",
+      "Save/Restore",
+      "Setpoint"
+    ],
+    "device_count": 24,
+    "device_count_via": "resolved via TwoPerSectorList = zeros(...)",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1618",
+        "via": "resolved via TwoPerSectorList = zeros(...)"
+      }
+    ]
+  },
+  "SHD": {
+    "family_level_groups": [
+      "Magnet",
+      "SEXT",
+      "SHD"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SEXT",
+        "SHD",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save/Restore"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "SEXT",
+        "SHD",
+        "Save"
+      ],
+      "RampRate": [
+        " %Save",
+        "Archive",
+        "PlotFamily"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      " %Save",
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SEXT",
+      "SHD",
+      "Save",
+      "Save/Restore"
+    ],
+    "device_count": 24,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1975",
+        "via": "literal"
+      }
+    ]
+  },
+  "SHF": {
+    "family_level_groups": [
+      "Magnet",
+      "SEXT",
+      "SHF"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SEXT",
+        "SHF",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "SEXT",
+        "SHF",
+        "Save/Restore",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "SEXT",
+        "SHF",
+        "Save"
+      ],
+      "RampRate": [
+        "PlotFamily"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SEXT",
+      "SHF",
+      "Save",
+      "Save/Restore",
+      "Setpoint"
+    ],
+    "device_count": 24,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "alsinit.m:1849",
+        "via": "literal"
+      }
+    ]
+  },
+  "SQEPU": {
+    "family_level_groups": [
+      "Magnet",
+      "SKEWQUAD"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint"
+      ],
+      "FF": [
+        "Archive",
+        "FF",
+        "Magnet",
+        "PlotFamily",
+        "Save"
+      ],
+      "FFMultiplier": [
+        "FFMultiplier",
+        "Magnet",
+        "PlotFamily",
+        "Save"
+      ],
+      "Sum": [
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Sum"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "FF",
+      "FFMultiplier",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SKEWQUAD",
+      "Save",
+      "Setpoint",
+      "Sum"
+    ],
+    "device_count": 7,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 7,
+        "source": "alsinit.m:3284",
+        "via": "literal"
+      }
+    ]
+  },
+  "SQSD": {
+    "family_level_groups": [
+      "Magnet",
+      "SKEWQUAD"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SKEWQUAD",
+        "SQSD",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save/Restore"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SKEWQUAD",
+      "SQSD",
+      "Save",
+      "Save/Restore"
+    ],
+    "device_count": 16,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 16,
+        "source": "alsinit.m:2171",
+        "via": "literal"
+      }
+    ]
+  },
+  "SQSF": {
+    "family_level_groups": [
+      "Magnet",
+      "SKEWQUAD"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SKEWQUAD",
+        "SQSF",
+        "Save"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save/Restore"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "SKEWQUAD",
+      "SQSF",
+      "Save",
+      "Save/Restore"
+    ],
+    "device_count": 16,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 16,
+        "source": "alsinit.m:2101",
+        "via": "literal"
+      }
+    ]
+  },
+  "SQSHF": {
+    "family_level_groups": [
+      "Magnet",
+      "SQSHF",
+      "SkewQuad"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archiver",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "SQSHF",
+        "Save",
+        "SkewQuad"
+      ],
+      "Setpoint": [
+        "Archiver",
+        "Magnet",
+        "PlotFamily",
+        "SQSHF",
+        "Save/Restore",
+        "Setpoint",
+        "SkewQuad"
+      ],
+      "SetpointGolden": [
+        "Archiver",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "SQSHF",
+        "Save/Restore",
+        "SkewQuad"
+      ],
+      "RampRate": [
+        "Archiver",
+        "Magnet",
+        "PlotFamily",
+        "Ramprate",
+        "SQSHF",
+        "Save",
+        "SkewQuad"
+      ],
+      "OnControl": [
+        "Archiver",
+        "Boolean Control",
+        "Magnet",
+        "PlotFamily",
+        "SQSHF",
+        "SkewQuad"
+      ],
+      "On": [
+        "Archiver",
+        "Boolean Monitor",
+        "Magnet",
+        "PlotFamily",
+        "SQSHF",
+        "SkewQuad"
+      ],
+      "Reset": [
+        "Archiver",
+        "Boolean Control",
+        "Magnet",
+        "PlotFamily",
+        "SQSHF",
+        "SkewQuad"
+      ],
+      "Ready": [
+        "Archiver",
+        "Boolean Monitor",
+        "Magnet",
+        "PlotFamily",
+        "SQSHF",
+        "SkewQuad"
+      ]
+    },
+    "all_groups_touched": [
+      "Archiver",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "Ramprate",
+      "SQSHF",
+      "Save",
+      "Save/Restore",
+      "Setpoint",
+      "SkewQuad"
+    ],
+    "device_count": 24,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 24,
+        "source": "buildmml_sextupole_harmonic.m:4",
+        "via": "literal"
+      }
+    ]
+  },
+  "THC": {
+    "family_level_groups": [
+      "THC"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "THC"
+      ],
+      "Setpoint": [
+        "Archive",
+        "Setpoint",
+        "THC"
+      ],
+      "Error": [
+        "Archive",
+        "Error",
+        "THC"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Error",
+      "Monitor",
+      "Setpoint",
+      "THC"
+    ],
+    "device_count": 3,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 3,
+        "source": "alsinit.m:4323",
+        "via": "literal"
+      }
+    ]
+  },
+  "TOPSCRAPER": {
+    "family_level_groups": [
+      "Scraper",
+      "Top"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Save",
+        "Scraper",
+        "Top"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Save/Restore",
+        "Scraper",
+        "Setpoint",
+        "Top"
+      ],
+      "Velocity": [
+        "Archive",
+        "Monitor",
+        "PlotFamily",
+        "Scraper",
+        "Top",
+        "Velocity"
+      ],
+      "RunFlag": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "RunFlag",
+        "Scraper",
+        "Top"
+      ],
+      "HomeControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily",
+        "Scraper",
+        "Top"
+      ],
+      "Home": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily",
+        "Scraper",
+        "Top"
+      ],
+      "PositiveLimit": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "Scraper",
+        "Top"
+      ],
+      "NegativeLimit": [
+        "Boolean Monitor",
+        "PlotFamily",
+        "Scraper",
+        "Top"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Monitor",
+      "PlotFamily",
+      "RunFlag",
+      "Save",
+      "Save/Restore",
+      "Scraper",
+      "Setpoint",
+      "Top",
+      "Velocity"
+    ],
+    "device_count": 5,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 5,
+        "source": "alsinit.m:3477",
+        "via": "literal"
+      }
+    ]
+  },
+  "TUNE": {
+    "family_level_groups": [
+      "TUNE"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Monitor",
+        "TUNE"
+      ],
+      "Measure": [
+        "Measurement",
+        "TUNE"
+      ]
+    },
+    "all_groups_touched": [
+      "Measurement",
+      "Monitor",
+      "TUNE"
+    ],
+    "device_count": 3,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 3,
+        "source": "alsinit.m:3898",
+        "via": "literal"
+      }
+    ]
+  },
+  "VCM": {
+    "family_level_groups": [
+      "COR",
+      "Magnet",
+      "VCM",
+      "Vertical"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "COR",
+        "Magnet",
+        "Monitor",
+        "PlotFamily",
+        "Save",
+        "VCM",
+        "Vertical"
+      ],
+      "Setpoint": [
+        "Archive",
+        "COR",
+        "Magnet",
+        "PlotFamily",
+        "Save/Restore",
+        "Setpoint",
+        "VCM",
+        "Vertical",
+        "measbpmresp"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "COR",
+        "Golden",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "VCM",
+        "Vertical"
+      ],
+      "Trim": [
+        "Archive",
+        "COR",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint",
+        "VCM"
+      ],
+      "FF1": [
+        "Archive",
+        "COR",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint",
+        "VCM"
+      ],
+      "FF2": [
+        "Archive",
+        "COR",
+        "Magnet",
+        "PlotFamily",
+        "Save",
+        "Setpoint",
+        "VCM"
+      ],
+      "FFMultiplier": [
+        "COR",
+        "Magnet",
+        "PlotFamily",
+        "Setpoint",
+        "VCM"
+      ],
+      "Sum": [
+        "COR",
+        "Magnet",
+        "PlotFamily",
+        "Setpoint",
+        "VCM"
+      ],
+      "DAC": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ],
+      "Reset": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "Ready": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "COR",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Save/Restore",
+      "Setpoint",
+      "VCM",
+      "Vertical",
+      "measbpmresp"
+    ],
+    "device_count": 72,
+    "device_count_via": "resolved via VCMlist = zeros(...)",
+    "device_sources": [
+      {
+        "count": 72,
+        "source": "alsinit.m:700",
+        "via": "resolved via VCMlist = zeros(...)"
+      }
+    ]
+  },
+  "VCMCHICANE": {
+    "family_level_groups": [
+      "Magnet",
+      "VCMCHICANE"
+    ],
+    "field_level_groups": {
+      "Monitor": [
+        "Archive",
+        "Monitor",
+        "PlotFamily"
+      ],
+      "Setpoint": [
+        "Archive",
+        "PlotFamily",
+        "Setpoint"
+      ],
+      "SetpointGolden": [
+        "Archive",
+        "Golden",
+        "PlotFamily",
+        "Save"
+      ],
+      "RampRate": [
+        "Archive",
+        "PlotFamily",
+        "Save"
+      ],
+      "TimeConstant": [
+        "PlotFamily",
+        "Save"
+      ],
+      "OnControl": [
+        "Archive",
+        "Boolean Control",
+        "PlotFamily"
+      ],
+      "On": [
+        "Archive",
+        "Boolean Monitor",
+        "PlotFamily"
+      ]
+    },
+    "all_groups_touched": [
+      "Archive",
+      "Boolean Control",
+      "Boolean Monitor",
+      "Golden",
+      "Magnet",
+      "Monitor",
+      "PlotFamily",
+      "Save",
+      "Setpoint",
+      "VCMCHICANE"
+    ],
+    "device_count": 2,
+    "device_count_via": "literal",
+    "device_sources": [
+      {
+        "count": 2,
+        "source": "alsinit.m:2622",
+        "via": "literal"
+      }
+    ]
+  },
+  "VCMFOFB": {
+    "family_level_groups": [
+      "Caen",
+      "FOFB",
+      "FastPS",
+      "Magnet",
+      "Power Supply"
+    ],
+    "field_level_groups": {
+      "*": [
+        "Caen",
+        "Cell Controller",
+        "FIR",
+        "FOFB",
+        "FastPS",
+        "Offset",
+        "PID",
+        "PlotFamily",
+        "Power Supply"
+      ]
+    },
+    "all_groups_touched": [
+      "Caen",
+      "Cell Controller",
+      "FIR",
+      "FOFB",
+      "FastPS",
+      "Magnet",
+      "Offset",
+      "PID",
+      "PlotFamily",
+      "Power Supply"
+    ],
+    "device_count": null,
+    "device_count_via": "",
+    "device_sources": []
+  }
+}
